@@ -1,0 +1,270 @@
+<html>
+
+<head>
+<title>:: Swingtime - Roster ::</title>
+<link rel="stylesheet" type="text/css" href="global.css">
+<script type="text/javascript" src="media/screen.js"></script>
+
+<meta name="description" content="Swingtime is a performance-based
+swing dance troupe at Stanford that works with professional
+choreographers, dance historians, and dance legends to recreate
+swing-era dances and integrate current trends.">
+
+</head>
+
+<body>
+
+<table border="0" width="800" cellspacing="0" cellpadding="0">
+  <!--#include virtual="Menu.html" -->
+  <tr>
+    <td width="160" valign=top>
+      <!--#include virtual="Roster.html" -->
+    </td>
+    <td valign=top width="540">
+      <table border="0" width="100%" cellspacing="0" cellpadding="5">
+	<tr><td valign="top"><p class="heading">Roster</p></td></tr>
+	<tr>
+	  <td valign="top">
+	    <p class="body">
+	    <p>
+If you haven't already (or need to change your answers), please fill out the <a href="survey/index.fft">member survey</a>.
+</p>
+<table border="0" cellspacing=3>
+  <tr><td colspan="8"><strong>Follows</strong><br><hr></td></tr>
+  <tr>
+    <td>
+      <a href="survey/Chelsea_Garnett.html" target="_blank">Chelsea Garnett</a>
+    </td>
+    <td>chelseag@stanford.edu</td>
+    <td></td>
+    <td>310-951-1987</td>
+    <td></td>
+    <td>balletchick115</td>
+    <td></td>
+    <td>Nov 5</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="survey/Chengos_Lim.html" target="_blank">Chengos Lim</a>
+    </td>
+    <td>chengos@stanford.edu</td>
+    <td></td>
+    <td>650-450-3571</td>
+    <td></td>
+    <td>chengosnswan</td>
+    <td></td>
+    <td>Oct 21</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="survey/Jessica_Bledin.html" target="_blank">Jessica Bledin</a>
+    </td>
+    <td>jbledin@gmail.com</td>
+    <td></td>
+    <td>818-517-8723</td>
+    <td></td>
+    <td>jeccapecca</td>
+    <td></td>
+    <td>Oct 5</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="survey/Karen_Warner.html" target="_blank">Karen Warner</a>
+    </td>
+    <td>kpwarner@stanford.edu</td>
+    <td></td>
+    <td>209-402-0041</td>
+    <td></td>
+    <td>heyhowdydoody</td>
+    <td></td>
+    <td>June 28</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="survey/Katy_McCown.html" target="_blank">Katy McCown</a>
+    </td>
+    <td>kmccown@stanford.edu</td>
+    <td></td>
+    <td>626-390-0695</td>
+    <td></td>
+    <td>kadybug101</td>
+    <td></td>
+    <td>July 8</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="survey/Lindsay_Ashby.html" target="_blank">Lindsay Ashby</a>
+    </td>
+    <td>ashby04002@byui.edu</td>
+    <td></td>
+    <td>480-586-1198</td>
+    <td></td>
+    <td>tightyo</td>
+    <td></td>
+    <td>Oct 3</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="survey/Lu-En_Wai.html" target="_blank">Lu-En Wai</a>
+    </td>
+    <td>luenwai@stanford.edu</td>
+    <td></td>
+    <td>650-353-1613</td>
+    <td></td>
+    <td>luen82</td>
+    <td></td>
+    <td>Nov 19</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="survey/Melissa_Kunz.html" target="_blank">Melissa Kunz</a>
+    </td>
+    <td>mmkunz@stanford.edu</td>
+    <td></td>
+    <td>808-895-3883</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>Feb 2</td>
+  </tr>
+  <tr>
+    <td width="115">
+      <a href="survey/Melody_Alonzo.html" target="_blank">Melody Alonzo</a>
+    </td>
+    <td>mvalonzo@stanford.edu</td>
+    <td></td>
+    <td>650-804-8738</td>
+    <td></td>
+    <td>dazzlemay4</td>
+    <td></td>
+    <td>Sep 29</td>
+  </tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr><td colspan="8"><strong>Leads</strong><br><hr></td></tr>
+  <tr>
+    <td>
+      <a href="survey/Ben_Newhouse.html" target="_blank">Ben Newhouse</a>
+    </td>
+    <td>benzn@stanford.edu</td>
+    <td></td>    
+    <td>650-504-4040</td>
+    <td></td>
+    <td>jpburton5150</td>
+    <td></td>
+    <td>Jan 10</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="survey/Carlos_Fernandez.html" target="_blank">Carlos Fernandez</a>
+    </td>
+    <td>carlosrf@stanford.edu</td>
+    <td></td>    
+    <td>559.213.4299</td>
+    <td></td>
+    <td>ivegotdablues416</td>
+    <td></td>
+    <td>April 7</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="survey/Chris_Wen.html" target="_blank">Chris Wen</a>
+    </td>
+    <td>cwen@stanford.edu</td>
+    <td></td>    
+    <td>714-815-3586</td>
+    <td></td>
+    <td>ferferfer27</td>
+    <td></td>
+    <td>Jan 2</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="survey/Ed_Fei.html" target="_blank">Ed Fei</a>
+    </td>
+    <td>edfei@stanford.edu</td>
+    <td></td>
+    <td>925-286-0819</td>
+    <td></td>
+    <td>branetr</td>
+    <td></td>
+    <td>March 8</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="survey/Jason_Sinocruz.html" target="_blank">Jason Sinocruz</a>
+    </td>
+    <td>sinocruz@stanford.edu</td>
+    <td></td>
+    <td>909-525-8979</td>
+    <td></td>
+    <td>jasonthecardinal</td>
+    <td></td>
+    <td>May 30</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="survey/Marc_Rillera.html" target="_blank">Marc Rillera</a>
+    </td>
+    <td>mrillera@stanford.edu</td>
+    <td></td>    
+    <td>702-461-3710</td>
+    <td></td>
+    <td>marcardinal07</td>
+    <td></td>
+    <td>Nov 8</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="survey/Miko_Tsukimoto.html" target="_blank">Miko Tsukimoto</a>
+    </td>
+    <td>moonbook@gmail.com</td>
+    <td></td>    
+    <td>650.704.8402</td>
+    <td></td>
+    <td>getsuhon</td>
+    <td></td>
+    <td>Aug 2</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="survey/Peter_Bullen.html" target="_blank">Peter Bullen</a>
+    </td>
+    <td>psbullen@stanford.edu</td>
+    <td></td>
+    <td>240-813-5063</td>
+    <td></td>    
+    <td>psabDenominator</td>
+    <td></td>
+    <td>June 17</td>
+  </tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr><td colspan="8"><strong>Webmaster</strong><br><hr></td></tr>
+  <tr>
+    <td><a href="survey/alumni/Dave_Kale.html" target="_blank">Dave Kale</a></td>
+    <td>davekale@stanford.edu</td>
+    <td></td>
+    <td>479-769-0570</td>
+    <td></td>
+    <td>darthmile<br>basileusdaueid</td>
+    <td></td>
+    <td>Aug 27</td>
+  </tr>
+</table>
+
+	    </p>
+	  </td>
+	</tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+</body>
+
+</html>

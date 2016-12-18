@@ -1,0 +1,144 @@
+<html>
+
+<head>
+<title>:: Swingtime - Non-Stop Flight ::</title>
+<link rel="stylesheet" type="text/css" href="global.css">
+<script type="text/javascript" src="media/screen.js"></script>
+
+<meta name="description" content="Swingtime is a performance-based
+swing dance troupe at Stanford that works with professional
+choreographers, dance historians, and dance legends to recreate
+swing-era dances and integrate current trends.">
+
+</head>
+
+<body>
+
+<table border="0" width="800" cellspacing="0" cellpadding="0">
+  <!--#include virtual="Menu.html" -->
+  <tr>
+    <td width="160" valign=top>
+      <!--#include virtual="Choreo.html" -->
+    </td>
+    <td valign=top width="540">
+      <table border="0" width="100%" cellspacing="0" cellpadding="5">
+	<tr><td valign="top"><p class="heading">Non-Stop Flight</p></td></tr>
+	<tr>
+	  <td valign="top">
+	    <p class="body">
+	    by Meg and Dave Kale
+<br>to <i>Non-Stop Flight</i> by Artie Shaw
+<br>
+<br>JAZZ
+<br>
+<br>8  truckin' right, right, left, left, right, right, right, right
+<br>8  rock-step, chenee turn left, fall hit on left, recover on 7
+<br>8  truckin' left, left, right, right, left, left, left, left
+<br>8  rock-step, chenee turn right, fall hit on right, step-step on 7-8
+<br>
+<br>8  truckin' left left, step-step, fall hit on right, step-step on 7-8
+<br>8  truckin' left left, step-step, fall hit on right, step-step on 7-8
+<br>8  left-kick fallin' off the log, right-kick fallin' off the log
+<br>8  charleston
+<br>8  rock-step, left charleston kick, step 4, hit 5
+<br>
+<br>PARTNERING
+<br>
+<br>8  swingout
+<br>8  sugar push, hit on 5-6, kick &7, kick &8
+<br>8  swingout
+<br>8  rock-step, double inside turn to cross-hand, hit on 7
+<br>8  cross-hand charleston
+<br>4  cross-hand charleston, outside turn charleston kick
+<br>8  tandem charleston (rock-step is on 5)
+<br>4  prep, aerial
+<br>8  aerial / something else
+<br>
+<br>PARTNER CHANGING
+<br>
+<br>(swingouts face out of circle)
+<br>8  swingout from closed position
+<br>8  PARTNER CHANGE: outside freespin from swingout
+<br>8  heel-rock on 1-2, swingout, switch to cross-hand position
+<br>8  PARTNER CHANGE: rock-step, tuck, double free spin
+<br>8  swingout
+<br>8  lindy circle
+<br>8  face-to-face charleston (girl travels to front)
+<br>8  side-by-side charleston
+<br>8  lolly (rock-step, cross 3, open 4, kick-hit 5)
+<br>8  pass-in-front to pass-back (need a better name???), catch in cross hand
+<br>   (rock-step, lead girl in front, catch left hip on 5, send back on 6)
+<br>8  PARTNER CHANGE: shoulder-roll, hit on 7, catch girl's left in guy's right
+<br>8  rock-step, tuck to double free spin
+<br>8  swingout (kick replacement step)
+<br>8  swingout (passe replacement step for girls)
+<br>8  lindy circle
+<br>4  send lady out to prep for ace-in-the-hole
+<br>12  ace-in-the-hole
+<br>
+<br>CONCURRENT JAZZ (GUYS)
+<br>
+<br>(backward first)
+<br>8  boogie back (kick-ball-change on 8-and-1, clap with kick)
+<br>8  kick on previous 8, forward-facing pimp walks
+<br>8  fishtails back, right first, with claps
+<br>8  shorty george (right kick-ball-step on 8-and-1)
+<br>
+<br>CONCURRENT JAZZ (GIRLS)
+<br>
+<br>(forward first)
+<br>8  chenee turn right, step touch drag
+<br>8  mini courtesies on 1-3-5-7
+<br>8  model walks (slow slow quick quick quick)
+<br>8  fishtails back, big girly arms
+<br>
+<br>8  spank the baby to position for girls jazz
+<br>8  spank the baby
+<br>8  spank the baby
+<br>
+<br>WOMEN'S JAZZ
+<br>
+<br>8  (R) kick cross rock step, kick cross rock touch
+<br>8  chenee turn, step clap, step clap, step clap, step step.
+<br>
+<br>8  other side
+<br>8  other side
+<br>
+<br>8  swivels with skirt grab
+<br>8  sugarfoot with jazz hands
+<br>8  pas de burre, grand twist
+<br>8  shorty george
+<br>
+<br>END PARTNERING
+<br>
+<br>8  kick steps back into circle
+<br>8  kick steps
+<br>8  kick steps
+<br>8  opposing shoulder thing, ba-dum on &8
+<br>8  swingout
+<br>8  swingout (guys kick on 7 to prepare for charleston)
+<br>8  charleston swingout
+<br>8  charleston swingout
+<br>4  go into tandem position (guys rock-step, kick-step)
+<br>                           (ladies charleston)
+<br>10 double V-kick charleston (rock-step on 5-6)
+<br>8  around-the-world charleston with behind-the-back hand-change (rock-step on 7-8)
+<br>10 send ladies back out, then shoulder roll
+<br>    (guys rock-step 7-8, kick-step, kick-step, lead shoulder roll with left)
+<br>    (ladies rock-step 7-8, kick-step, rock-step on right, shoulder roll)
+<br>8  pull through
+<br>   (girl down on 1, guys kick over on 2, pull through on 3-6, girl lands on 7)
+<br>8  cross-hand charleston
+<br>8  cross-hand charleston
+<br>8  end in straddle
+	    </p>
+	  </td>
+	</tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+</body>
+
+</html>

@@ -1,0 +1,101 @@
+<html>
+
+<head>
+<title>:: Swingtime - Leap Frog Middle ::</title>
+<link rel="stylesheet" type="text/css" href="global.css">
+<script type="text/javascript" src="media/screen.js"></script>
+
+<meta name="description" content="Swingtime is a performance-based
+swing dance troupe at Stanford that works with professional
+choreographers, dance historians, and dance legends to recreate
+swing-era dances and integrate current trends.">
+
+</head>
+
+<body>
+
+<table border="0" width="800" cellspacing="0" cellpadding="0">
+  <!--#include virtual="Menu.html" -->
+  <tr>
+    <td width="160" valign=top>
+      <!--#include virtual="Choreo.html" -->
+    </td>
+    <td valign=top width="540">
+      <table border="0" width="100%" cellspacing="0" cellpadding="5">
+	<tr><td valign="top"><p class="heading">Leap Frog Middle</p></td></tr>
+	<tr>
+	  <td valign="top">
+	    <p class="body">
+	    by Rob and Diane van Haaren
+<br>to <i>Leap Frog</i> by Joe Garland and Leo Corday
+<br>
+<br>8 Swingout
+<br>8 Swingout (leads under)
+<br>8 Swingout (follows outside turn)
+<br>8 Lindy Circle
+<br>
+<br>6 Swing kicks
+<br>6 Swing kicks
+<br>8 Swingout
+<br>8 Shouler roll
+<br>4 Pause
+<br>
+<br>8 Leads pimp forward
+<br>8 Follows jazz square
+<br>8 Follows jazz square
+<br>8 Kick sequence back to place
+<br>
+<br>8 Half lindy/break/rock step
+<br>8 Kicks
+<br>8 Kicks
+<br>8 Drag
+<br>
+<br>8 Drag, mini fly girl
+<br>8 Suzy Q's (to the left)
+<br>8 Suzy Q's (to the right)
+<br>8 Pose & pause
+<br>
+<br>8 Boogie forward
+<br>8 Pimp walk/lock turn
+<br>8 Shorty george (around)
+<br>8 Grand twist
+<br>
+<br>8 Fancy footwork
+<br>8 Fancy footwork/peckin'
+<br>
+<br>SOLOS
+<br>SOLOS
+<br>..
+<br>
+<br>8 Itch
+<br>8 Leads itch/Follows sugar foot around
+<br>
+<br>8 Opposing charleston kicks
+<br>8 Opposing charleston kicks (double kick at the end)
+<br>8 Kick steps spinning in place
+<br>8 Tandem charleston
+<br>
+<br>8 Messin' around
+<br>8 Kick around (to the left)
+<br>8 Kick around (to the right, with follows' unwrap)
+<br>6 Jump arounds
+<br>4 Fly girl
+<br>
+<br>6 Loop turn
+<br>8 Underarm spin-jump
+<br>8 Lindy circle
+<br>8 Tortilla forward
+<br>
+<br>8 Jump & pose
+
+	    </p>
+	  </td>
+	</tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+</body>
+
+</html>

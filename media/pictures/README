@@ -1,0 +1,23 @@
+Creating an album:
+
+   1. Add a new date directory (yyyy-mm-dd)
+
+   2. Add photo and thumbnail files *_600.jpg and *_T.jpg to the date
+      directory.  Create an ORDER file and add each photo (without the
+      _600.jpg or _T.jpg suffix) to the file.  If you wish to add
+      captions or cite the photographer, the format of the ORDER file
+      is as follows:
+
+      [photo]: [caption] & [taken by]
+
+      Note that you can use convert_pics.pl to generate the _600, _T,
+      and ORDER files automatically:
+
+      ./convert_pics.pl [source directory] [destination directory]
+
+   3. Create a TITLE file with the album's title
+   
+   4. Add a title picture to the MAIN_LIST file
+
+   5. Run ./create.sh
+

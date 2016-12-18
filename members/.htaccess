@@ -1,0 +1,7 @@
+AuthUserFile /afs/ir/group/swingtime/WWW/.htpasswd
+AuthName ByPassword
+AuthType Basic
+
+order deny,allow
+allow from all
+require valid-user

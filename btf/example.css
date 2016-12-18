@@ -1,0 +1,168 @@
+/* Begin Defaults: defines default styles for typical html tags */
+body{ 
+	background: #999999;
+	font-family: helvetica;
+	color: #000000;
+	margin: 0 0 0 0;
+}
+
+h1 {
+	font-size: 40pt;
+	color: #9B0F04;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+h4 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+p {
+	margin-top: 0px;
+	width: 100%;
+}
+
+a {
+	color: #922;
+}
+/* end defaults */
+
+/* begin layout related styles */
+div#center {
+	width: 960px;
+	margin: 32px auto 0 auto;
+}
+
+div#wrapper {
+	position: relative;
+	width: 100%;
+	margin: 0 0 0 0;
+	border: 2px solid #990000;
+	background: #eeeeee;
+}
+
+div#shadows  #left{
+	position: absolute;
+	top: 0;
+	left: -32px;
+	height: 100%;
+	width: 32px;
+}
+div#shadows  #right{
+	position: absolute;
+	top: 0;
+	left: 960px;
+	height: 100%;
+	width: 32px;
+}
+div#shadows  #bottom{
+	position: relative;
+	top: 32px;
+	left: -32px;
+	height: 32px;
+	width: 1024px;
+}
+div#shadows  #top{
+	position: absolute;
+	top: -32px;
+	left: -32px;
+	height: 32px;
+	width: 1024px;
+}
+
+
+div#header {
+	z-index: 1;
+	width: 100%;
+	height: 256px;
+}
+#header h1 {
+	position: absolute;
+	top: 348px;
+	left: 40px;
+	color: rgb(155, 15, 4 );
+	color: rgba(155, 15, 4, .15);
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=15)";
+	filter: alpha(opacity=15);
+
+}
+
+#main_nav {
+	width: 100%;
+	height: 64px;
+}
+
+#main_nav ul {
+	font-size: 9pt;
+	font-weight: bold;
+	z-index: 2;
+	float: right;
+	position: relative;
+	top: 20px;
+	display: block;
+	list-style: none;
+	background-color: rgb(60, 60, 60);
+	background-color: rgba(200, 200, 200, 0.2);
+	padding: 0 10px 0 10px;
+	margin: 0 0 0 0;
+	width: 480px;
+	height: 2em;
+}
+
+#main_nav ul li {
+	display: block;
+	float: left;
+	position: relative;
+}
+
+#main_nav ul li a {
+	display: block;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #999;
+	position: relative;
+	height: 1em;
+	padding: .4em 5px .6em 5px;
+	margin: 0 0 0 0;
+	background-color: rgba(200, 200, 200, 0);
+}
+
+#main_nav ul li a:hover {
+	background-color: rgb(85, 85, 85);
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+#body {
+	background-color: #eeeeee;
+	background-color: rgba(255, 255, 255, 0.0);
+	padding: 64px 64px 64px 64px;
+	margin: 0 0 0 0;
+}
+
+#footer {
+	width: 960px;
+	height: 32px;
+	background-color: #222222;
+}
+
+/* Special styled page images here */
+div#ezratam{ /* this defines the space taken up by the image */
+	width: 192px;
+	height: 316px;
+	float: right;
+}
+div#ezratam img { /* the actual location of the image */
+	position: relative;
+	top: -80px;
+	left: 21px;
+	z-index: 4;
+}
+div.pusher { /* used to make sure bottom of body clears all floated things in body */
+	color: rgba(0, 0, 0, 0);
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	height: 1px;
+	width: 1px;
+	clear: both;
+}

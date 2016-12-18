@@ -1,0 +1,85 @@
+<html>
+
+<head>
+<title>:: Swingtime - Posin ::</title>
+<link rel="stylesheet" type="text/css" href="global.css">
+<script type="text/javascript" src="media/screen.js"></script>
+
+<meta name="description" content="Swingtime is a performance-based
+swing dance troupe at Stanford that works with professional
+choreographers, dance historians, and dance legends to recreate
+swing-era dances and integrate current trends.">
+
+</head>
+
+<body>
+
+<table border="0" width="800" cellspacing="0" cellpadding="0">
+  <!--#include virtual="Menu.html" -->
+  <tr>
+    <td width="160" valign=top>
+      <!--#include virtual="Choreo.html" -->
+    </td>
+    <td valign=top width="540">
+      <table border="0" width="100%" cellspacing="0" cellpadding="5">
+	<tr><td valign="top"><p class="heading">Posin</p></td></tr>
+	<tr>
+	  <td valign="top">
+	    <p class="body">
+	    by Ryan and Monica Shen-Knotts
+<br>to <i>Posin'</i>
+<br>
+<br>Pose men inside
+<br>Swingout
+<br>Swingoute flip flop
+<br>Slide to the slide one flourish
+<br>Lindy circle
+<br>Pecking (men face line of dance)
+<br>Pecking (
+<br>Double underarm
+<br>Heels sailor step
+<br>Men kick to center
+<br>Men truck into center
+<br>Traveling Charleston out
+<br>Swingout
+<br>Swingout men kicks
+<br>Slide to the side high kick on 1,2
+<br>Double leg flourish
+<br>Cross hand block turn free spin for ladies (men facing back line of dance)
+<br>Swingout men's free spin on 7&8 catch on 1?
+<br>Jump backwards men Celebrating the fact that we made it
+<br> (women like: Oh yeah baby you made that one)
+<br>Barrel Roll two hands
+<br>Not crossed hands block turn she goes 5,6 he goes 7,8
+<br>Cross hand back to back shoulder roll
+<br>Lead into shadow position
+<br>Susie Q on Frozen gosen an gemosen (right foot in first, in out in out, See your partner here!)
+<br>Double free spin out
+<br>Swingout
+<br>Triple (8n1), kick, triple step, kick, triple step kick and hold ("Those cats are Posin")
+<br>Swingout
+<br>Flea Hop
+<br>Flea Hop break on 7
+<br>Poses
+<br>
+<br>Teaching
+<br>Savoy Style
+<br>	Bounce
+<br>	Ba-dum
+<br>	Low - bent at the waist for guys - bent in the knees for girls
+<br>	Kicks from the hip
+<br>Teach the special moves
+<br>	Flea hop
+<br>	Scissor kicks
+
+	    </p>
+	  </td>
+	</tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+</body>
+
+</html>

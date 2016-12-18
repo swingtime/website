@@ -1,0 +1,121 @@
+
+<INPUT_FORM>
+FORMAT=MyForm
+</INPUT_FORM>
+
+<ACTION>
+OUTPUT=reply
+FORMAT=MyReply
+</ACTION>
+
+<ACTION>
+OUTPUT = file_rewrite:/afs/ir/group/swingtime/WWW/members/survey/alumni/@member1@_@member2@.html
+FORMAT = MyReply
+</ACTION>
+
+<FORMAT NAME=MyForm>
+<TITLE>Swingtime Member Survey</TITLE>
+<link rel="stylesheet" type="text/css" href="../global.css">
+<center>
+<p class="heading">Swingtime members survey</p>
+<table cellpadding=3>
+<tr>
+  <td align=center colspan=2><hr>
+</tr><tr>
+  <td>Name:</td>
+  <td>
+      <INPUT TYPE="text" NAME="member1" size=10><INPUT TYPE="text" NAME="member2" size=10>
+  </td>
+</tr><tr>
+  <td>Nickname(s):</td>
+  <td><INPUT TYPE="text" NAME="nickname"></td>
+</tr><tr>
+  <td>Email:</td>
+  <td><INPUT TYPE="text" NAME="email" size=25></td>
+</tr><tr>
+  <td>Birthday:</td>
+  <td><INPUT TYPE="text" NAME="birthday" size=10></td>
+</tr><tr>
+  <td>Home phone:</td>
+  <td><INPUT TYPE="text" NAME="hphone" size=11></td>
+</tr><tr>
+  <td>Cell phone:</td>
+  <td><INPUT TYPE="text" NAME="cphone" size=11></td>
+</tr><tr>
+  <td>AIM screename:</td>
+  <td><INPUT TYPE="text" NAME="sname" size=11></td>
+</tr><tr>
+  <td valign=top>Address:</td>
+  <td><INPUT TYPE="text" NAME="addr" size=30><br><INPUT TYPE="text" NAME="addr2" size=30></td>
+</tr><tr>
+  <td>Year and major:</td>
+  <td><INPUT TYPE="text" NAME="yrmajor" size=30></td>
+</tr><tr>
+  <td>Favorite dance:</td>
+  <td><INPUT TYPE="text" NAME="favdance"></td>
+</tr><tr>
+  <td>Favorite food:</td>
+  <td><INPUT TYPE="text" NAME="favfood"></td>
+</tr><tr>
+  <td>Favorite drink:</td>
+  <td><INPUT TYPE="text" NAME="favdrink"></td>
+</tr><tr>
+  <td>Favorite ice cream:</td>
+  <td><INPUT TYPE="text" NAME="favicecream"></td>
+</tr><tr>
+  <td>Hobbies:</td>
+  <td><INPUT TYPE="text" NAME="hobbies" size=50></td>
+</tr><tr>
+  <td align=center colspan=2><hr><p><INPUT TYPE="submit" VALUE="Submit"></td></tr>
+</table>
+</FORMAT>
+
+<FORMAT NAME=MyReply>
+<TITLE>@member1@ @member2@</TITLE>
+<link rel="stylesheet" type="text/css" href="../global.css">
+<table cellpadding=3>
+<tr>
+  <td>Name:</td>
+  <td>@member1@ @member2@</td>
+</tr><tr>
+  <td>Nickname(s):</td>
+  <td>@nickname@</td>
+</tr><tr>
+  <td>Email:</td>
+  <td>@email@</td>
+</tr><tr>
+  <td>Birthday:</td>
+  <td>@birthday@</td>
+</tr><tr>
+  <td>Dorm/apt phone:</td>
+  <td>@hphone@</td>
+</tr><tr>
+  <td>Cell phone:</td>
+  <td>@cphone@</td>
+</tr><tr>
+  <td>AIM screenname:</td>
+  <td>@sname@</td>
+</tr><tr>
+  <td valign=top>Address:</td>
+  <td>@addr@<br>@addr2@</td>
+</tr><tr>
+  <td>Year and major:</td>
+  <td>@yrmajor@</td>
+</tr><tr>
+  <td>Favorite dance:</td>
+  <td>@favdance@</td>
+</tr><tr>
+  <td>Favorite food:</td>
+  <td>@favfood@</td>
+</tr><tr>
+  <td>Favorite drink:</td>
+  <td>@favdrink@</td>
+</tr><tr>
+  <td>Favorite ice cream:</td>
+  <td>@favicecream@</td>
+</tr><tr>
+  <td>Hobbies:</td>
+  <td>@hobbies@</td>
+</tr><tr>
+</table>
+</FORMAT>

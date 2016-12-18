@@ -1,0 +1,114 @@
+<html>
+
+<head>
+<title>:: Swingtime - Leap Frog Side ::</title>
+<link rel="stylesheet" type="text/css" href="global.css">
+<script type="text/javascript" src="media/screen.js"></script>
+
+<meta name="description" content="Swingtime is a performance-based
+swing dance troupe at Stanford that works with professional
+choreographers, dance historians, and dance legends to recreate
+swing-era dances and integrate current trends.">
+
+</head>
+
+<body>
+
+<table border="0" width="800" cellspacing="0" cellpadding="0">
+  <!--#include virtual="Menu.html" -->
+  <tr>
+    <td width="160" valign=top>
+      <!--#include virtual="Choreo.html" -->
+    </td>
+    <td valign=top width="540">
+      <table border="0" width="100%" cellspacing="0" cellpadding="5">
+	<tr><td valign="top"><p class="heading">Leap Frog Side</p></td></tr>
+	<tr>
+	  <td valign="top">
+	    <p class="body">
+	    by Rob and Diane van Haaren
+<br>to <i>Leap Frog</i> by Joe Garland and Leo Corday
+<br>
+<br>8 Swingout
+<br>8 Swingout (leads under)
+<br>8 Swingout (follows outside turn)
+<br>8 Lindy Circle
+<br>
+<br>6 Swing kicks
+<br>6 Swing kicks
+<br>8 Swingout
+<br>8 Shouler roll
+<br>4 Pause
+<br>
+<br>8 Pause & groove
+<br>8 Pause & groove
+<br>8 Jazz square
+<br>8 Jazz square
+<br>
+<br>8 Half lindy/break/rock step
+<br>8 Kicks
+<br>8 Kicks
+<br>8 Tuck underarm turn (break on 7)
+<br>
+<br>8 Boogie woogie
+<br>8 Boogie woogie
+<br>8 Boogie back
+<br>8 Shorty george
+<br>
+<br>8 Spankin' the baby
+<br>8 Spankin' the baby
+<br>8 Spankin' the baby
+<br>8 Pose & pause
+<br>
+<br>8 Fancy footwork*
+<br>8 Fancy footwork/peckin'
+<br>
+<br>SOLOS
+<br>SOLOS
+<br>..
+<br>
+<br>8 Itch
+<br>8 Tuck underarm turn (break on 5)
+<br>
+<br>8 Swingout
+<br>8 Swingout
+<br>8 Texas Tommy (break on 7)
+<br>8 Hold
+<br>
+<br>8 Spinning Charleston (to the left)
+<br>8 Spinning Charleston (to the right)
+<br>8 Falling of a log
+<br>8 Kick steps
+<br>
+<br>8 Tortilla forward
+<br>8 Tortilla back
+<br>8 Lindy circle
+<br>8 Tortilla (hands held)
+<br>
+<br>8 Tuck/spin/final pose
+<br>
+<br>*Fancy Footwork Breakdown
+<br>
+<br>LEADS:
+<br>Step kick step step
+<br>Step kick ball-change step
+<br>Step swing step step
+<br>Peck peck peck peck
+<br>
+<br>FOLLOWS:
+<br>Step kick step step
+<br>Step kick step step
+<br>Step swing ball-change step
+<br>Peck peck peck peck
+
+	    </p>
+	  </td>
+	</tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+<html>
+
+<head>
+<title>:: Swingtime - Music ::</title>
+<link rel="stylesheet" type="text/css" href="global.css">
+<script type="text/javascript" src="media/screen.js"></script>
+
+<meta name="description" content="Swingtime is a performance-based
+swing dance troupe at Stanford that works with professional
+choreographers, dance historians, and dance legends to recreate
+swing-era dances and integrate current trends.">
+
+</head>
+
+<body>
+
+<table border="0" width="800" cellspacing="0" cellpadding="0">
+  <!--#include virtual="Menu.html" -->
+  <tr>
+    <td width="160" valign=top>
+      <!--#include virtual="Other.html" -->
+    </td>
+    <td valign=top width="540">
+      <table border="0" width="100%" cellspacing="0" cellpadding="5">
+	<tr><td valign="top"><p class="heading">Music</p></td></tr>
+	<tr>
+	  <td valign="top">
+	    <p class="body">
+	    <b><i>Current Pieces</i></b>
+<br><a href="media/mp3/Glenn Miller - In The Mood.mp3">In The Mood</a>
+<br>
+<br><b><i>Past Pieces</i></b>
+<br><a href="media/mp3/Artie Shaw - Back Bay Shuffle.mp3">Back Bay Shuffle</a>
+<br><a href="media/mp3/Cherry Poppin Daddies - Brown Derby Jump (Swingtime Cut).mp3">Cat's Corner</a>
+<br><a href="media/mp3/Lionel Hampton and Benny Goodman - Flying Home.mp3">Flying Home</a>
+<br><a href="media/mp3/OutKast - Hey Ya (Swingtime Cut).mp3">Hey Ya</a>
+<br><a href="media/mp3/Joe Garland and Leo Corday - Leapfrog.mp3">Leapfrog</a>
+<br><a href="media/mp3/Gene Krupa - Leave Us Leap.mp3">Leave Us Leap</a>
+<br><a href="media/mp3/Nat King Cole - L-O-V-E.mp3">L-O-V-E</a>
+<br><a href="media/mp3/Artie Shaw - Non-Stop Flight.mp3">Non-Stop Flight</a>
+<br><a href="media/mp3/Black Eyed Peas - Pump It (Swingtime Cut).mp3">Pump It</a>
+<br><a href="media/mp3/Bill Haley and the Coments - Rock Around the Clock (Swingtime Cut).mp3">Rock Around the Clock</a>
+<br><a href="media/mp3/The Andrews Sisters - Hold Tight, Hold Tight (Swingtime Cut).mp3">Seafood Mama</a>
+<br><a href="media/mp3/Brian Setzer Orchestra - Straight Up.mp3">Straight Up</a>
+<br><a href="media/mp3/Brian Setzer Orchestra - Stray Cat Strut (Swingtime Cut).mp3">Stray Cat Strut</a>
+<br>
+<br><i>Note: To download these files, right-click and select "Save Target As"</i>
+
+	    </p>
+	  </td>
+	</tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+</body>
+
+</html>

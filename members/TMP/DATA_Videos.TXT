@@ -1,0 +1,15 @@
+<b><i>2005-06 Season</i></b>
+<a href="http://www.stanford.edu/~davekale/swingtime/20060517-UrbanStyles-CatsCorner.wmv">Cat's Corner 2006 (divx)</a> at Urban Styles 2006
+<a href="http://www.stanford.edu/~davekale/swingtime/20060513-SpringFaire-Love-FlyingHome.wmv">L-O-V-E and Flying Home (wmv)</a> at Spring Faire 2006
+
+<b><i>Past Pieces</i></b>
+<a href="http://www.oceanful.com/swingtime/Swingtime_20031108_Hatwalk_LeapFrog.avi">Leapfrog (divx)</a> at Hat Walk 2003
+<a href="http://www.oceanful.com/swingtime/Swingtime_20031121_RagtimeBall_LeapFrog.avi">Leapfrog (divx)</a> at Ragtime Ball 2003
+<i>
+Note 1: To download these files, right-click and select "Save Target As"
+
+Note 2: For divx files, you either need to download and install the <a href="http://www.divx.com/divx/">DivX codec</a>
+or use <a href="http://www.videolan.org/">VLC media player</a> to watch these videos. For wmv files, you should use
+<a href="http://www.microsoft.com/windows/windowsmedia/default.mspx"> Windows media player</a> on Windows machines or <a href="http://www.flip4mac.com/">Flip4Mac</a> on Macs. If you're
+using Linux, you probably know what to do.
+</i>
