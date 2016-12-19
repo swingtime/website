@@ -6,34 +6,37 @@ var email = "(our group name here)-info@lists.stanford.edu";
 var currentYear = '2016';
 
 /* Limit event names to ~40 chars to prevent overflow */
+/* Dates must have abbreviated month names, e.g. Jan, Sept, June, July, Aug */
 var allEvents = {
-   '2016': [
-    {name: "Lynbrook Blue Pearl Dance", date: "January 30"},
-    {name: "Mardi Gras Dinner", date: "February 6"},
-    {name: "Stanford Viennese Ball", date: "February 27", url: "https://www.youtube.com/watch?v=L0lJ7pSyjeY"},
-    {name: "Cardinal Dance Fusion", date: "April 1", url: "https://www.youtube.com/watch?v=jvxR1vo7oR8"},
-    {name: "[M]ovement showcase at UC Berkeley", date: "April 9", url: "https://www.youtube.com/watch?v=GH69hGXl6ZI"},
-    {name: "Cardinal Classic", date: "April 23"},
-    {name: "Stanford Little Big Dance", date: "April 23"},
-    {name: "Admit Weekend Expo", date: "April 29"},
+  '2016': [
+    {name: "Lynbrook Blue Pearl Dance", date: "Jan 30"},
+    {name: "Mardi Gras Dinner", date: "Feb 6"},
+    {name: "Stanford Viennese Ball", date: "Feb 27", url: "https://www.youtube.com/watch?v=L0lJ7pSyjeY"},
+    {name: "Cardinal Dance Fusion", date: "Apr 1", url: "https://www.youtube.com/watch?v=jvxR1vo7oR8"},
+    {name: "[M]ovement showcase at UC Berkeley", date: "Apr 9", url: "https://www.youtube.com/watch?v=GH69hGXl6ZI"},
+    {name: "Cardinal Classic", date: "Apr 23"},
+    {name: "Stanford Little Big Dance", date: "Apr 23"},
+    {name: "Admit Weekend Expo", date: "Apr 29"},
     {name: "Swingtime Spring Show, \"Swing States 2016\"", date: "May 22"},
-   ],   
-   '2015': [
-    {name: "Cardinal Ballet's \"The Nutcracker\"", date: "December 12", url: "https://www.youtube.com/watch?v=z4xZtaLZ1X8"},
-    {name: "tapTH@T Showcase", date: "November 8"},
-    {name: "Stanford Fall Ball", date: "November 6", url: "https://www.youtube.com/watch?v=4ENBV6ftIdk"},
+    {name: "Stanford Fall Ball", date: "Nov 11", url: "https://www.youtube.com/watch?v=iC5iIYd3ynQ"},
+    {name: "Cardinal Ballet's \"The Nutcracker\"", date: "Dec 12", url: "https://www.youtube.com/watch?v=xJrsxkBXDxU"},
+  ],
+  '2015': [
+    {name: "Cardinal Ballet's \"The Nutcracker\"", date: "Dec 12", url: "https://www.youtube.com/watch?v=z4xZtaLZ1X8"},
+    {name: "tapTH@T Showcase", date: "Nov 8"},
+    {name: "Stanford Fall Ball", date: "Nov 6", url: "https://www.youtube.com/watch?v=4ENBV6ftIdk"},
     {name: "Swingtime Spring Show, \"How The West Was Swung\"", date: "May 31", url: "https://www.youtube.com/watch?v=VwIlGsH38EU"},
     {name: "Stanford Big Dance", date: "May 8"},
     {name: "Autism Talks", date: "Apr 19"},
-	{name: "Cardinal Classic Ballroom Competition", date: "Apr 18"},
-	{name: "Toyon Special Dinner", date: "Apr 16"},
-	{name: "Cardinal Dance Fusion", date: "Apr 3"},
-	{name: "Stanford Viennese Ball", date: "Feb 27", url: "https://www.youtube.com/watch?v=wRsySOa12-Y"},
-	{name: "Mardi Gras Dinner", date: "Feb 17"},
-	{name: "Arrillaga Late Nights", date: "Feb 10"},
-	{name: "Stanford Dance Marathon", date: "Feb 7"},
-   ],
-   '2014': [
+    {name: "Cardinal Classic Ballroom Competition", date: "Apr 18"},
+    {name: "Toyon Special Dinner", date: "Apr 16"},
+    {name: "Cardinal Dance Fusion", date: "Apr 3"},
+    {name: "Stanford Viennese Ball", date: "Feb 27", url: "https://www.youtube.com/watch?v=wRsySOa12-Y"},
+    {name: "Mardi Gras Dinner", date: "Feb 17"},
+    {name: "Arrillaga Late Nights", date: "Feb 10"},
+    {name: "Stanford Dance Marathon", date: "Feb 7"},
+  ],
+  '2014': [
     {name: "San Jose Museum of Art", date: "Nov 20"},
     {name: "Stanford Men's Basketball Halftime Show", date: "Nov 14"},
     {name: "Stanford Fall Ball", date: "Nov 7", url: "https://www.youtube.com/watch?v=XU1ehv1ybcE"},
@@ -172,29 +175,70 @@ $(window).resize(function() {
   resizeWindow();
 });
 
+function eventCompare(a, b) {
+  function dateCompare(a, b) {
+    function monthCompare(a, b) {
+      var dict = {
+        "Jan": 1,
+        "Feb": 2,
+        "Mar": 3,
+        "Apr": 4,
+        "May": 5,
+        "June": 6,
+        "July": 7,
+        "Sept": 8,
+        "Aug": 9,
+        "Oct": 10,
+        "Nov": 11,
+        "Dec": 12,
+      };
+
+      if (dict[a] === dict[b]) {
+        return 0;
+      } else if (dict[a] < dict[b]) {
+        return -1;
+      } else {
+        return 1;
+      }
+    };
+
+    var a_tokens = a.split(" ");
+    var b_tokens = b.split(" ");
+    var cmp = monthCompare(a_tokens[0], b_tokens[0]);
+    if (cmp !== 0) {
+      return cmp;
+    } else {
+      return parseInt(a_tokens[1]) < parseInt(b_tokens[1]);
+    }
+  };
+
+  return dateCompare(a.date, b.date);
+}
+
 function switchYears(year) {
   var events = allEvents[year];
+  events.sort(eventCompare);
   $(".year").removeClass("selected");
   $("#" + year).addClass("selected");
   var dates = $("#event-dates").empty();
   var names = $("#event-names").empty();
   for (var i = 0; i < events.length; i++) {
-     dates.append($("<li>").text(events[i].date));
-     //BOLD THE SPRING SHOW :D
-     var name = events[i].name;
-     var newElem = $("<li>");
-     //make a hyperlink if there is a link to a youtube video of the performance
-     if(events[i].url) { 
-        newElem.html("<a href=\"" + events[i].url + "\" target=\"_blank\">" + name + "</a>");
-     }
-     else {
-        newElem.text(name);
-     }
-     if(name.indexOf("Swingtime Spring Show") >= 0) {
-	    newElem.css("font-weight","Bold");
-     }
-     //names.append($("<li>").text(events[i].name));
-     names.append(newElem);
+    dates.append($("<li>").text(events[i].date));
+    //BOLD THE SPRING SHOW :D
+    var name = events[i].name;
+    var newElem = $("<li>");
+    //make a hyperlink if there is a link to a youtube video of the performance
+    if(events[i].url) {
+      newElem.html("<a href=\"" + events[i].url + "\" target=\"_blank\">" + name + "</a>");
+    }
+    else {
+      newElem.text(name);
+    }
+    if(name.indexOf("Swingtime Spring Show") >= 0) {
+      newElem.css("font-weight","Bold");
+    }
+    //names.append($("<li>").text(events[i].name));
+    names.append(newElem);
   }
 }
 
@@ -208,8 +252,8 @@ function resizeWindow() {
 
 /* Handles the navbar scrolling animation */
 function scrollToAnchor(anchorId) {
-    var h1Tag = $("h1[name='" + anchorId + "']");
-    $("html, body").stop(true, true).animate({scrollTop: h1Tag.offset().top - 100}, "slow");
+  var h1Tag = $("h1[name='" + anchorId + "']");
+  $("html, body").stop(true, true).animate({scrollTop: h1Tag.offset().top - 100}, "slow");
 }
 
 $("#links a").click(function() {
