@@ -177,6 +177,14 @@ $(window).resize(function() {
 
 function eventCompare(a, b) {
   function dateCompare(a, b) {
+    function intCompare(a, b) {
+      if (a == b) {
+        return 0;
+      }
+
+      return (a < b) ? -1 : 1;
+    };
+
     function monthCompare(a, b) {
       var dict = {
         "Jan": 1,
@@ -193,13 +201,7 @@ function eventCompare(a, b) {
         "Dec": 12,
       };
 
-      if (dict[a] === dict[b]) {
-        return 0;
-      } else if (dict[a] < dict[b]) {
-        return -1;
-      } else {
-        return 1;
-      }
+      return intCompare(dict[a], dict[b]);
     };
 
     var a_tokens = a.split(" ");
@@ -208,7 +210,7 @@ function eventCompare(a, b) {
     if (cmp !== 0) {
       return cmp;
     } else {
-      return parseInt(a_tokens[1]) < parseInt(b_tokens[1]);
+      return intCompare(parseInt(a_tokens[1]), parseInt(b_tokens[1]));
     }
   };
 
