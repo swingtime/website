@@ -3,7 +3,16 @@ largely does not know what a lot of the stuff in here is here for.
 
 Currently, the two files that will probably need to be updated are:
 home.html
-js.banner.js
+  - Add/update new members
+  - Update audition info.
+  - Update pictures, etc.
+
+js/banner.js
+  - To add a new year, add a new div in the home.html, and add a new
+    year to the allEvents variable.
+  - Add new events per each year here. See allEvents variable.
+    - Follow the month abbreviation in the comment, events are sorted in
+      ascending order according to eventCompare.
 
 Permissions may be granted to future webmasters here:
 http://web.stanford.edu/services/afs/sysadmin/userguide/file-permissions.html.
