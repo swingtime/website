@@ -16,7 +16,7 @@ var currentYear = '2017';
 /* Dates must have abbreviated month names, e.g. Jan, Sept, June, July, Aug */
 var allEvents = {
   '2017': [
-  {name: "Nothing special happened this year. It was a bad year."},
+  {name: "Auditions", date: "TBD"},
   ],
   '2016': [
     {name: "Lynbrook Blue Pearl Dance", date: "Jan 30"},
