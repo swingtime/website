@@ -1,13 +1,23 @@
+/* To all future web masters. This code is not spaghetti, it's carbonara, mixed
+ * with a bunch of gooey (tasty) milk and cheese things, stuck between the
+ * lines of code. I'm sorry, it was not my fault.
+ *
+ * Godspeed,
+ * Evan
+ */
 
 
 /* Contact email for dynamic replacement */
 var email = "swingtime-info@lists.stanford.edu";
 /* Change current year so correct gigs are displayed */
-var currentYear = '2016';
+var currentYear = '2017';
 
 /* Limit event names to ~40 chars to prevent overflow */
 /* Dates must have abbreviated month names, e.g. Jan, Sept, June, July, Aug */
 var allEvents = {
+  '2017': [
+  {name: "Nothing special happened this year. It was a bad year."},
+  ],
   '2016': [
     {name: "Lynbrook Blue Pearl Dance", date: "Jan 30"},
     {name: "Mardi Gras Dinner", date: "Feb 6"},
