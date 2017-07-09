@@ -1,7 +1,7 @@
 
 
 /* Contact email for dynamic replacement */
-var email = "(our group name here)-info@lists.stanford.edu";
+var email = "swingtime-info@lists.stanford.edu";
 /* Change current year so correct gigs are displayed */
 var currentYear = '2016';
 
