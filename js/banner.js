@@ -275,7 +275,7 @@ $("#links a").click(function() {
 /* Scrolls to the appropriate section when a navbar link is clicked and highlights as the user scrolls */
 function addScrollingBehavior() {
   var about = $("h1[name='about']").offset().top - 200;
-  //var auditions = $("h1[name='auditions']").offset().top - 200;
+  var auditions = $("h1[name='auditions']").offset().top - 200;
   var booking = $("h1[name='booking']").offset().top - 200;
   var members = $("h1[name='members']").offset().top - 200;
   var contact = $("h1[name='contact']").offset().top - 500;  // Extra high offset of 500 since contact is at the bottom of the page
@@ -303,14 +303,14 @@ function addScrollingBehavior() {
 
     /* Highlights the appropriate top-nav link */
     $("#links a").removeClass("selected");
-    if (top >= about && top < auditions) {
+    if (top >= about && top < booking) {
       $("#about").addClass("selected");
-    } else if (top >= auditions && top < booking) {
-      $("#auditions").addClass("selected");
     } else if (top >= booking && top < members) {
       $("#booking").addClass("selected");
-    } else if (top >= members && top < contact) {
+    } else if (top >= members && top < auditions) {
       $("#members").addClass("selected");
+    } else if (top >= auditions && top < contact) {
+      $("#auditions").addClass("selected");
     } else if (top >= contact) {
       $("#contact").addClass("selected");
     }
