@@ -12,10 +12,6 @@
   src: local('Familiar Pro-Bold'), url('/fonts/Familiar Pro-Bold.otf') format('opentype');
 }
 
-@font-face {
-  font-family: ;
-}
-
 html {
   margin: 0;
 }
@@ -303,6 +299,25 @@ iframe {
 
 #group-shot {
   margin-left: 20px;
+}
+
+h5.testimonial {
+  margin: 50px auto 0;
+  max-width: 900px;
+  font-family: 'Myanmar';
+  line-height: 1.5;
+  color: #5b0505;
+  text-align: left;
+}
+
+h6.testimonial-name {
+  max-width: 900px;
+  margin: 10px auto 60px;
+  padding-right: 80px;
+  font-family: 'Myanmar';
+  color: black;
+  text-align: right;
+  font-size: 18px;
 }
 
 #years.row {
