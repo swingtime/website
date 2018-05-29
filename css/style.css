@@ -125,10 +125,6 @@ body {
   -moz-transition: background .3s linear;
 }
 
-#banner.sticky {
-  /*background: url('/images/wide-shot.jpg') no-repeat center top fixed;*/
-}
-
 #banner-img {
   overflow: hidden;
 }
@@ -295,10 +291,6 @@ iframe {
 
 #mini-logo:hover {
   background-image: url('/images/home-hover.png');
-}
-
-#group-shot {
-  margin-left: 20px;
 }
 
 h5.testimonial {

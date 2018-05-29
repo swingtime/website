@@ -1,3 +1,0 @@
-#RewriteEngine on
-#RewriteRule ^$ http://swingtime.stanford.edu/down.html [R]
-DirectoryIndex home.html
