@@ -1,0 +1,54 @@
+%LOGFILE% = /afs/ir/group/swingtime/WWW/members/GIGS/ATTEND_@gig@.log
+%LOGFILE_WRITE% = 0
+
+<INPUT_FORM>
+FORMAT=MyForm
+LOGFILE_SELECT=DoUpdate
+</INPUT_FORM>
+
+<ACTION>
+OUTPUT=reply
+FORMAT=MyReply
+</ACTION>
+
+<ACTION>
+OUTPUT=logfile_update:%LOGFILE%
+LOGFILE_SELECT=DoUpdate
+</ACTION>
+
+<FILTER NAME=DoUpdate>
+@name@ == @new_name@
+@new_attend@ =~ /./ => @attend@ = @new_attend@
+@new_reason@ =~ /./ => @reason@ = @new_reason@
+</FILTER>
+
+<FORMAT NAME=MyForm>
+<TITLE>Gig Attendance</TITLE>
+<link rel="stylesheet" type="text/css" href="global.css">
+<center>
+<p class="heading">@new_name@'s @gig@ RSVP</p>
+<table cellpadding=3 cellspacing=5>
+<tr><td colspan="3"><hr></td></tr>
+<tr>
+  <td valign="top">Attend:<br>
+	<INPUT TYPE="hidden" NAME="new_name" VALUE="@new_name@">
+	<INPUT TYPE="hidden" NAME="gig" VALUE="@gig@">
+	<INPUT TYPE="radio" NAME="new_attend" VALUE="YES"> Yes<br>
+	<INPUT TYPE="radio" NAME="new_attend" VALUE="NO"> No
+  </td>
+  <td>&nbsp;</td>
+  <td valign="top">Reason:<br>
+	<TEXTAREA NAME="new_reason" rows=3 cols=25></TEXTAREA>
+  </td>
+</tr>
+  <tr><td align=center colspan="3"><hr><p><INPUT TYPE="submit" VALUE="Submit"></td></tr>
+</table>
+</FORMAT>
+
+<FORMAT NAME=MyReply>
+<TITLE></TITLE>
+<link rel="stylesheet" type="text/css" href="global.css">
+@new_name@'s @gig@ attendance: <b>@new_attend@</b> <i>@new_reason@</i>
+<p>
+<i><a href="Attendance.fft?gig=@gig@">see full @gig@ attendance</a></i>
+</FORMAT>

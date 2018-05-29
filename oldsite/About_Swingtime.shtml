@@ -1,0 +1,60 @@
+<html>
+
+<head>
+<title>:: Swingtime - About Swingtime ::</title>
+<link rel="stylesheet" type="text/css" href="global.css">
+<script type="text/javascript" src="media/screen.js"></script>
+
+<meta name="description" content="Swingtime is a performance-based
+swing dance troupe at Stanford that works with professional
+choreographers, dance historians, and dance legends to recreate
+swing-era dances and integrate current trends.">
+
+</head>
+
+<body>
+
+<table border="0" width="800" cellspacing="0" cellpadding="0">
+  <!--#include virtual="Menu.html" -->
+  <tr>
+    <td width="160" valign=top>
+      <!--#include virtual="About.html" -->
+    </td>
+    <td valign=top width="540">
+      <table border="0" width="100%" cellspacing="0" cellpadding="5">
+	<tr><td valign="top"><p class="heading">About Swingtime</p></td></tr>
+	<tr>
+	  <td valign="top">
+	    <p class="body">
+	    
+Swingtime is a high energy swing dance troupe dedicated 
+to bringing the fun, excitement, and flair of swing dancing
+to Stanford. Swingtime's performances are known not only
+for their fast-paced lindy hop with jaw-dropping aerials but
+also their smooth and sexy swing moves. You never know
+what to expect with Swingtime - they've even been
+caught swinging to hip-hop on occasion! You can find
+Swingtime performing at many dance events such as
+Ragtime Ball, Viennese Ball, Big Dance, and of course,
+the annual Swingtime Spring Show.  Swingtime guarantees
+to bring a smile to every face at every performance!
+
+<p>Check out our <a href="Gallery.shtml">pictures and video clips</a>,
+and then see us in person at one of our <a
+href="Current_Season.shtml">performances</a> or <a
+href="mailto:swingtime-info@lists.stanford.edu">contact us</a> to hire us for your next event or to make a general inquiry.
+	    </p>
+	  </td>
+	</tr>
+	<tr><td align=center width=100%><img border="1" vspace=20 src="images/sleek_150.jpg
+">&nbsp;&nbsp;&nbsp;<img border="1" vspace=20 src="images/dynamic_150.jpg
+">&nbsp;&nbsp;&nbsp;<img border="1" vspace=20 src="images/highflying_150.jpg
+"></td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+</body>
+
+</html>

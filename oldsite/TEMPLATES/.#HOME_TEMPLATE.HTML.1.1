@@ -1,0 +1,33 @@
+xxximg=images/home.jpg,Dennis Kwon
+
+<table border="0" width="100%" cellpadding="0" cellspacing="0">
+  <tr>
+    <td valign="top">
+      <map name="feather">
+        <area href="members/"
+	shape="rect"
+	coords="200, 33, 214, 72">
+      </map>
+      <img border="1" usemap="#feather" src="images/home.jpg" width="400" height="400">
+    </td>
+    <td width="5">&nbsp;</td>
+    <td valign="top">
+      <table border="0" width="100%" cellpadding="0" cellspacing="0">
+        [foreach]
+        <tr>
+          <td width="100%" class="announce[itermod2]">
+	    <table border="0" width="100%" cellpadding="7" cellspacing="0">
+	      <tr>
+	        <td class="announce[itermod2]">[item]</td>
+	      </tr>
+	    </table>
+	  </td>		
+        </tr>
+	<tr>
+	  <td height="5" class="note"></td>
+	</tr>
+	[endforeach]
+      </table>
+    </td>
+  </tr>
+</table>

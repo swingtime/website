@@ -1,0 +1,154 @@
+<html>
+
+<head>
+<title>:: Swingtime - Current Season ::</title>
+<link rel="stylesheet" type="text/css" href="global.css">
+<script type="text/javascript" src="media/screen.js"></script>
+
+<meta name="description" content="Swingtime is a performance-based
+swing dance troupe at Stanford that works with professional
+choreographers, dance historians, and dance legends to recreate
+swing-era dances and integrate current trends.">
+
+</head>
+
+<body>
+
+<table border="0" width="800" cellspacing="0" cellpadding="0">
+  <!--#include virtual="Menu.html" -->
+  <tr>
+    <td width="160" valign=top>
+      <!--#include virtual="Calendar.html" -->
+    </td>
+    <td valign=top width="540">
+      <table border="0" width="100%" cellspacing="0" cellpadding="5">
+	<tr><td valign="top"><p class="heading">Current Season</p></td></tr>
+	<tr>
+	  <td valign="top">
+	    <p class="body">
+	    <table border="0" cellpadding="5" cellspacing="0"><tr><td>
+<table border="0" cellpadding="0" cellspacing="0" width="450">
+  <tr>
+    <td width="75"><b>Date</b></td>
+    <td width="15"><b>&nbsp;&nbsp;</b></td>
+    <td><b>Event</b></td>
+    <td width="5"><b>&nbsp;&nbsp;</b></td>
+    <td><b>Location</b></td>
+    <td width="5"><b>&nbsp;&nbsp;</b></td>
+    <td><b>Time</b></td>
+  </tr>
+  <tr>
+    <td colspan="7"><hr></td>
+  </tr>
+  <tr>
+    <td valign="top">Sep<br> Sep 21</td>
+    <td></td>
+    <td><b><a href="http://orientation.stanford.edu/2006/calendar-thursday.shtml">Faces of Community</a> </b></td>
+    <td></td>
+    <td>Memorial Auditorium</td>
+    <td></td>
+    <td>7:00pm </td>
+  </tr>
+  <tr>
+    <td class="note">&nbsp;</td>
+  </tr>
+  <tr>
+    <td valign="top">Sat<br> Sep 23</td>
+    <td></td>
+    <td><b>"Stanford is Swinging"<br>Freshman Orientation Dance</b></td>
+    <td></td>
+    <td>Roble 38 (Main Dance Studio)</td>
+    <td></td>
+    <td>10:00pm </td>
+  </tr>
+  <tr>
+    <td class="note">&nbsp;</td>
+  </tr>
+  <tr>
+    <td valign="top">Sun<br> Oct 1</td>
+    <td></td>
+    <td><b>Basic Swing and Lindy Workshop</b></td>
+    <td></td>
+    <td>Roble Gym (Room 52)</td>
+    <td></td>
+    <td>6-8pm </td>
+  </tr>
+  <tr>
+    <td class="note">&nbsp;</td>
+  </tr>
+  <tr>
+    <td valign="top">Mon<br> Oct 2</td>
+    <td></td>
+    <td><b><a href="Auditions.shtml">Auditions</a>: First Round (Section 1)</b></td>
+    <td></td>
+    <td>Roble Main Studio (Room 38)</td>
+    <td></td>
+    <td>6-8pm </td>
+  </tr>
+  <tr>
+    <td class="note">&nbsp;</td>
+  </tr>
+  <tr>
+    <td valign="top">Mon<br> Oct 2</td>
+    <td></td>
+    <td><b><a href="Auditions.shtml">Auditions</a>: First Round (Section 2)</b></td>
+    <td></td>
+    <td>Elliot Programming Center</td>
+    <td></td>
+    <td>9-11pm </td>
+  </tr>
+  <tr>
+    <td class="note">&nbsp;</td>
+  </tr>
+  <tr>
+    <td valign="top">Tue<br> Oct 3</td>
+    <td></td>
+    <td><b><a href="Auditions.shtml">Auditions</a>: First Round (Make-Up)</b></td>
+    <td></td>
+    <td>Roble 42</td>
+    <td></td>
+    <td>6-8pm </td>
+  </tr>
+  <tr>
+    <td class="note">&nbsp;</td>
+  </tr>
+  <tr>
+    <td valign="top">Wed<br> Oct 4</td>
+    <td></td>
+    <td><b><a href="Auditions.shtml">Auditions</a>: Callbacks</b></td>
+    <td></td>
+    <td>Roble 25</td>
+    <td></td>
+    <td>6-8pm  </td>
+  </tr>
+  <tr>
+    <td class="note">&nbsp;</td>
+  </tr>
+  <tr>
+    <td valign="top">Fri<br> Feb 16</td>
+    <td></td>
+    <td><b>30th Annual <a href="http://www.stanford.edu/group/viennese/">Stanford Viennese Ball</a></b></td>
+    <td></td>
+    <td>TBA</td>
+    <td></td>
+    <td>TBA </td>
+  </tr>
+  <tr>
+    <td class="note">&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="7"><hr></td>
+  </tr>
+</table>
+</td></tr></table>
+	    </p>
+	  </td>
+	</tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+</body>
+
+</html>

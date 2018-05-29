@@ -1,0 +1,8 @@
+<html>
+<body>
+<left>
+[foreach]
+<p><img width=75 height=100 src="../[pic]" border=1><br><b>[name]</b>
+[endforeach]
+</body>
+</html>

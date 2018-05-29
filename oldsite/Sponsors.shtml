@@ -1,0 +1,50 @@
+<html>
+
+<head>
+<title>:: Swingtime - Sponsors ::</title>
+<link rel="stylesheet" type="text/css" href="global.css">
+<script type="text/javascript" src="media/screen.js"></script>
+
+<meta name="description" content="Swingtime is a performance-based
+swing dance troupe at Stanford that works with professional
+choreographers, dance historians, and dance legends to recreate
+swing-era dances and integrate current trends.">
+
+</head>
+
+<body>
+
+<table border="0" width="700" cellspacing="0" cellpadding="0">
+  <!--#include virtual="Menu.html" -->
+  <tr>
+    <td width="160" valign=top>
+      <!--#include virtual="About.html" -->
+    </td>
+    <td valign=top width="540">
+      <table border="0" width="100%" cellspacing="0" cellpadding="5">
+	<tr>
+	  <td valign="top">
+	    <p class="heading">Sponsors</p>
+	    <p class="body">The Associated Students of Stanford University (ASSU)</p>
+<p class="heading">Supporters</p>
+<p class="body">
+The Swing Kids Club<br>
+Double or Nothing<br>
+Stanford Dance Division<br>
+Richard Powers, <i>Vintage Dance Ensemble Director and Dance Division Instructor</i><br>
+Ryan and Monica Shen Knotts, <i>Vintage Dance Ensemble Dance Captains</i><br>
+Tony Kramer, <i>Dance Division Coordinator</i><br>
+Susan Cashion, <i>Former Dance Division Coordinator</i><br>
+Kathleen Murphy, <i>Dance Division Administrator</i><br>
+Our families, friends, and fans
+</p>
+	  </td>
+	</tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+</body>
+
+</html>

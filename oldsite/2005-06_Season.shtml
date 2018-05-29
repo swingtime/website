@@ -1,0 +1,382 @@
+<html>
+
+<head>
+<title>:: Swingtime - 2005-06 Season ::</title>
+<link rel="stylesheet" type="text/css" href="global.css">
+<script type="text/javascript" src="media/screen.js"></script>
+
+<meta name="description" content="Swingtime is a performance-based
+swing dance troupe at Stanford that works with professional
+choreographers, dance historians, and dance legends to recreate
+swing-era dances and integrate current trends.">
+
+</head>
+
+<body>
+
+<table border="0" width="800" cellspacing="0" cellpadding="0">
+  <!--#include virtual="Menu.html" -->
+  <tr>
+    <td width="160" valign=top>
+      <!--#include virtual="Calendar.html" -->
+    </td>
+    <td valign=top width="540">
+      <table border="0" width="100%" cellspacing="0" cellpadding="5">
+	<tr><td valign="top"><p class="heading">2005-06 Season</p></td></tr>
+	<tr>
+	  <td valign="top">
+	    <p class="body">
+	    <table border="0" cellpadding="5" cellspacing="0"><tr><td>
+<table border="0" cellpadding="0" cellspacing="0" width="450">
+  <tr>
+    <td width="75"><b>Date</b></td>
+    <td width="15"><b>&nbsp;&nbsp;</b></td>
+    <td><b>Event</b></td>
+    <td width="5"><b>&nbsp;&nbsp;</b></td>
+    <td><b>Location</b></td>
+    <td width="5"><b>&nbsp;&nbsp;</b></td>
+    <td><b>Time</b></td>
+  </tr>
+  <tr>
+    <td colspan="7"><hr></td>
+  </tr>
+  <tr>
+    <td valign="top">Sat<br> Sep 24</td>
+    <td></td>
+    <td><b>"Stanford is Swinging"<br>Freshman Orientation Dance</b></td>
+    <td></td>
+    <td>Roble Gym</td>
+    <td></td>
+    <td>10:00pm  </td>
+  </tr>
+  <tr>
+    <td class="note">&nbsp;</td>
+  </tr>
+  <tr>
+    <td valign="top">Mon<br> Oct 3</td>
+    <td></td>
+    <td><b>Auditions: First Round</b></td>
+    <td></td>
+    <td>Roble Main Dance Studio</td>
+    <td></td>
+    <td>9-11pm </td>
+  </tr>
+  <tr>
+    <td class="note">&nbsp;</td>
+  </tr>
+  <tr>
+    <td valign="top">Mon<br> Oct 10</td>
+    <td></td>
+    <td><b>Auditions: Callbacks</b></td>
+    <td></td>
+    <td>Roble Main Dance Studio</td>
+    <td></td>
+    <td>8:30-11pm  </td>
+  </tr>
+  <tr>
+    <td class="note">&nbsp;</td>
+  </tr>
+  <tr>
+    <td valign="top">Fri<br> Nov 11</td>
+    <td></td>
+    <td><b>Ragtime Ball</b></td>
+    <td></td>
+    <td>Roble Main Dance Studio</td>
+    <td></td>
+    <td>10:00pm </td>
+  </tr>
+  <tr>
+    <td class="note">&nbsp;</td>
+  </tr>
+  <tr>
+    <td valign="top">Sat<br> Nov 19</td>
+    <td></td>
+    <td><b>Richard's Wedding Ball</b></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>10:00pm </td>
+  </tr>
+  <tr>
+    <td class="note">&nbsp;</td>
+  </tr>
+  <tr>
+    <td valign="top">Fri<br> Jan 13</td>
+    <td></td>
+    <td><b>Jammix</b></td>
+    <td></td>
+    <td>Roble Main Dance Studio</td>
+    <td></td>
+    <td>10:00pm </td>
+  </tr>
+  <tr>
+    <td class="note">&nbsp;</td>
+  </tr>
+  <tr>
+    <td valign="top">Fri<br> Feb 3</td>
+    <td></td>
+    <td><b>Junior Formal</b></td>
+    <td></td>
+    <td>SF Bank of America Bldg</td>
+    <td></td>
+    <td>10:45pm </td>
+  </tr>
+  <tr>
+    <td class="note">&nbsp;</td>
+  </tr>
+  <tr>
+    <td valign="top">Sat<br> Feb 18</td>
+    <td></td>
+    <td><b><a href="http://dancemarathon.stanford.edu/">Dance Marathon</a></b></td>
+    <td></td>
+    <td>Roble Gym</td>
+    <td></td>
+    <td>6:15pm </td>
+  </tr>
+  <tr>
+    <td class="note">&nbsp;</td>
+  </tr>
+  <tr>
+    <td valign="top">Fri<br> Feb 24</td>
+    <td></td>
+    <td><b><a href="http://www.stanford.edu/group/viennese/">28th Annual Stanford Viennese Ball</a></b></td>
+    <td></td>
+    <td>Swing Room</td>
+    <td></td>
+    <td>1:00am </td>
+  </tr>
+  <tr>
+    <td class="note">&nbsp;</td>
+  </tr>
+  <tr>
+    <td valign="top">Sun<br> Mar 12</td>
+    <td></td>
+    <td><b>Adele Saxe Cultural Arts Series</b></td>
+    <td></td>
+    <td>ALS Jewish Commty Ctr</td>
+    <td></td>
+    <td>3:00pm </td>
+  </tr>
+  <tr>
+    <td class="note">&nbsp;</td>
+  </tr>
+  <tr>
+    <td valign="top">Sun<br> Mar 12</td>
+    <td></td>
+    <td><b>Bob Study Break</b></td>
+    <td></td>
+    <td>Bob Lounge</td>
+    <td></td>
+    <td>10:00pm</td>
+  </tr>
+  <tr>
+    <td class="note">&nbsp;</td>
+  </tr>
+  <tr>
+    <td valign="top">Tue<br> Mar 14</td>
+    <td></td>
+    <td><b>Toyon Talent Show</b></td>
+    <td></td>
+    <td>Toyon lounge</td>
+    <td></td>
+    <td>10:00pm</td>
+  </tr>
+  <tr>
+    <td class="note">&nbsp;</td>
+  </tr>
+  <tr>
+    <td valign="top">Wed<br> Apr 5</td>
+    <td></td>
+    <td><b> <a href="http://www.steppinoutproductions.com">Steppin' Out</a> Lindy Birthday Celebration</b></td>
+    <td></td>
+    <td>Steppin' Out</td>
+    <td></td>
+    <td>10:15pm</td>
+  </tr>
+  <tr>
+    <td class="note">&nbsp;</td>
+  </tr>
+  <tr>
+    <td valign="top">Fri<br> Apr 7</td>
+    <td></td>
+    <td><b>Art Affair</b></td>
+    <td></td>
+    <td>White Plaza</td>
+    <td></td>
+    <td>3:51pm</td>
+  </tr>
+  <tr>
+    <td class="note">&nbsp;</td>
+  </tr>
+  <tr>
+    <td valign="top">Thu<br> Apr 20</td>
+    <td></td>
+    <td><b>Toyon ProFro Welcome</b></td>
+    <td></td>
+    <td>Toyon lounge</td>
+    <td></td>
+    <td>7:00pm</td>
+  </tr>
+  <tr>
+    <td class="note">&nbsp;</td>
+  </tr>
+  <tr>
+    <td valign="top">Fri<br> Apr 21</td>
+    <td></td>
+    <td><b>FroSoCo ProFro Show</b></td>
+    <td></td>
+    <td>Ricker Dining</td>
+    <td></td>
+    <td>5:00pm</td>
+  </tr>
+  <tr>
+    <td class="note">&nbsp;</td>
+  </tr>
+  <tr>
+    <td valign="top">Sat<br> Apr 22</td>
+    <td></td>
+    <td><b>Dance Expo</b></td>
+    <td></td>
+    <td>Kresge Aud</td>
+    <td></td>
+    <td>1:00pm</td>
+  </tr>
+  <tr>
+    <td class="note">&nbsp;</td>
+  </tr>
+  <tr>
+    <td valign="top">Sat<br> May 6</td>
+    <td></td>
+    <td><b>Big Dance</b></td>
+    <td></td>
+    <td>Roble Main Studio</td>
+    <td></td>
+    <td>12:45am</td>
+  </tr>
+  <tr>
+    <td class="note">&nbsp;</td>
+  </tr>
+  <tr>
+    <td valign="top">Sat<br> May 6</td>
+    <td></td>
+    <td><b>Dance and Drama Dept. Reunion</b></td>
+    <td></td>
+    <td>Roble Main Dance Studio Courtyard</td>
+    <td></td>
+    <td>4:30pm</td>
+  </tr>
+  <tr>
+    <td class="note">&nbsp;</td>
+  </tr>
+  <tr>
+    <td valign="top">Sat<br> May 6</td>
+    <td></td>
+    <td><b><a href="http://www.stanford.edu/group/salseros/">Los Salseros</a> Spring Show</b></td>
+    <td></td>
+    <td>Kresge</td>
+    <td></td>
+    <td>7:00pm</td>
+  </tr>
+  <tr>
+    <td class="note">&nbsp;</td>
+  </tr>
+  <tr>
+    <td valign="top">Fri<br> May 12</td>
+    <td></td>
+    <td><b><a href="http://www.stanford.edu/group/pasu/kayumanggi.html">Kayumanggi</a> Spring Show</b></td>
+    <td></td>
+    <td>Kresge</td>
+    <td></td>
+    <td>8:00pm </td>
+  </tr>
+  <tr>
+    <td class="note">&nbsp;</td>
+  </tr>
+  <tr>
+    <td valign="top">Sat<br> May 13</td>
+    <td></td>
+    <td><b>Spring Faire</b></td>
+    <td></td>
+    <td>White Plaza</td>
+    <td></td>
+    <td>1:00pm</td>
+  </tr>
+  <tr>
+    <td class="note">&nbsp;</td>
+  </tr>
+  <tr>
+    <td valign="top">Sat<br> May 13</td>
+    <td></td>
+    <td><b>Castilleja Prom</b></td>
+    <td></td>
+    <td>8:30pm</td>
+    <td></td>
+    <td>evening</td>
+  </tr>
+  <tr>
+    <td class="note">&nbsp;</td>
+  </tr>
+  <tr>
+    <td valign="top">Wed<br> May 17</td>
+    <td></td>
+    <td><b><a href="http://www.stanford.edu/group/urbanstyles/">Urban Styles</a> Spring Show</b></td>
+    <td></td>
+    <td>Roble Main Dance Studio</td>
+    <td></td>
+    <td>8:30pm</td>
+  </tr>
+  <tr>
+    <td class="note">&nbsp;</td>
+  </tr>
+  <tr>
+    <td valign="top">Sat<br> Jun 3</td>
+    <td></td>
+    <td><b>Swingtime Spring Show</b></td>
+    <td></td>
+    <td>Roble Main Dance Studio</td>
+    <td></td>
+    <td>6:30pm  </td>
+  </tr>
+  <tr>
+    <td class="note">&nbsp;</td>
+  </tr>
+  <tr>
+    <td valign="top">Tue<br> Jul 14</td>
+    <td></td>
+    <td><b><a href="http://www.steppinoutproductions.com/news/latest/arte-phillips-comes-to-steppin%27-out!-20060909192/">Arte Phillips Hustle Night</a></b></td>
+    <td></td>
+    <td><a href="http://www.steppinoutproductions.com">Steppin Out</a></td>
+    <td></td>
+    <td>~10:00pm </td>
+  </tr>
+  <tr>
+    <td class="note">&nbsp;</td>
+  </tr>
+  <tr>
+    <td valign="top">Tue<br> Jul 18</td>
+    <td></td>
+    <td><b><a href="http://dance.stanford.edu/danceweeks/index.html">Stanford Waltz and Swing Week</a></b></td>
+    <td></td>
+    <td>Roble Main Dance Studio</td>
+    <td></td>
+    <td>8:30pm </td>
+  </tr>
+  <tr>
+    <td class="note">&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="7"><hr></td>
+  </tr>
+</table>
+</td></tr></table>
+	    </p>
+	  </td>
+	</tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+</body>
+
+</html>

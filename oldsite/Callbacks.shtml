@@ -1,0 +1,81 @@
+<html>
+
+<head>
+<title>:: Swingtime - Callbacks ::</title>
+<link rel="stylesheet" type="text/css" href="global.css">
+<script type="text/javascript" src="media/screen.js"></script>
+
+<meta name="description" content="Swingtime is a performance-based
+swing dance troupe at Stanford that works with professional
+choreographers, dance historians, and dance legends to recreate
+swing-era dances and integrate current trends.">
+
+</head>
+
+<body>
+
+
+
+<table border="0" width="800" cellspacing="0" cellpadding="0">
+  <!--#include virtual="Menu.html" -->
+  <tr>
+    <td width="160" valign=top>
+      <!--#include virtual="About.html" -->
+    </td>
+    <td valign=top width="540">
+      <table border="0" width="100%" cellspacing="0" cellpadding="5">
+	<tr><td valign="top"><p class="heading">Callbacks</p></td></tr>
+	<tr>
+	  <td valign="top">
+	    <p class="body">
+<!--
+	    <p>
+Swingtime is happy to announce its 2006 Callbacks. Auditionees who have
+been called back have been contacted by email and are asked to show
+up on the night of Wednesday, Oct 4, in Roble 52 (the
+old fencing room) from 7-9pm. <b>Please show up at least 15 minutes
+(and preferably more) early.</b>
+</p>
+<table cellspacing=5 cellpadding=0 border=0>
+  <tr>
+    <td><b>Callbacks</b></td>
+  </tr><tr>
+    <td>Date:</td><td>Wednesday, Oct 4, 7-9pm</td>
+  </tr><tr>
+    <td>Location:</td><td>Roble Gym (Room 52)</td>
+  </tr>
+
+-->
+</table>
+
+<p>
+Callbacks function as the first Swingtime rehearsal of the year, giving
+us an opportunity to see how auditionees fit into the group, as well as
+how quickly they can learn and master technique, choreography, and performance.
+They will be evaluated according to the same criteria used for auditions, but
+Swingtime members will have a chance to dance with auditionees more and take a
+closer look at each individual. Once again, auditionees again be asked to fill
+out peer review forms.
+</p>
+<p>
+<b>Callbacks auditionees are asked to review the choreography taught at auditions
+so that we can quickly move on to new material. To assist them, we're making some
+<a href="In_The_Mood.shtml">choreography notes</a> available
+<a href="In_The_Mood.shtml">here</a> as well as the
+<a href="../media/mp3/Glenn Miller - In The Mood.mp3">music here</a>. Good luck!</b>
+</p>
+<p>
+For questions, see our <a href="http://swingtime.stanford.edu/FAQ.shtml">FAQ</a> or email
+<a href="mailto:swingtime-info@lists.stanford.edu">swingtime-info@lists.stanford.edu</a>.
+</p>
+	    </p>
+	  </td>
+	</tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+</body>
+
+</html>

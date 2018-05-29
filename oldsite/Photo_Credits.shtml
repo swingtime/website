@@ -1,0 +1,154 @@
+<html>
+
+<head>
+<title>:: Swingtime - Photo Credits ::</title>
+<link rel="stylesheet" type="text/css" href="global.css">
+<script type="text/javascript" src="media/screen.js"></script>
+
+<meta name="description" content="Swingtime is a performance-based
+swing dance troupe at Stanford that works with professional
+choreographers, dance historians, and dance legends to recreate
+swing-era dances and integrate current trends.">
+
+</head>
+
+<body>
+
+<table border="0" width="700" cellspacing="0" cellpadding="0">
+  <!--#include virtual="Menu.html" -->
+  <tr>
+    <td width="160" valign=top>
+      <!--#include virtual="Gallery.html" -->
+    </td>
+    <td valign=top width="540">
+      <table border="0" width="100%" cellspacing="0" cellpadding="5">
+	<tr>
+	  <td valign="top">
+	    <p class="heading">Photo Credits</p>
+	    <p class="body"><table border=0 cellpadding=0 cellspacing=5>
+  <tr>
+    <td><img src="images/screenshot_200.jpg" border="0"></td>
+    <td>Site design by <a href="http://www.cs.stanford.edu/~ach/"
+    target="_blank">Andy Huang</a></td>
+  </tr>
+  <tr>
+    <td><img src="images/logo_75.gif" width="75" border="0"></td>
+    <td>Logo design by <a href="http://www.citylinedesign.com"
+    target="_blank">Rich Shin</a>
+  </tr>  
+  <tr>
+    <td><img src="../images/audrey_splits.jpg" height="75" border="1"></td>
+    <td>
+      <a href="Site_Map.shtml">Site Map</a> photo
+      <br>Dennis Kwon
+
+    </td>
+  </tr>
+  <tr>
+    <td><img src="images/home.jpg" height="75" border="1"></td>
+    <td>
+      <a href="Home.shtml">Home</a> photo
+      <br>Dennis Kwon
+
+    </td>
+  </tr>
+  <tr>
+    <td><img src="images/sleek_150.jpg
+" height="75" border="1"></td>
+    <td>
+      <a href="About_Swingtime.shtml">About Swingtime</a> photo
+      <br>Helena Chang
+    </td>
+  </tr>
+  <tr>
+    <td><img src="images/dynamic_150.jpg
+" height="75" border="1"></td>
+    <td>
+      <a href="About_Swingtime.shtml">About Swingtime</a> photo
+      <br>Helena Chang
+    </td>
+  </tr>
+  <tr>
+    <td><img src="images/highflying_150.jpg
+" height="75" border="1"></td>
+    <td>
+      <a href="About_Swingtime.shtml">About Swingtime</a> photo
+      <br>Helena Chang
+    </td>
+  </tr>
+  <tr>
+    <td><img src="../images/shoes.gif
+" height="75" border="1"></td>
+    <td>
+      <a href="History.shtml">History</a> photo
+      <br>Sandra Liu
+    </td>
+  </tr>
+  <tr>
+    <td><img src="images/logo.gif
+" height="75" border="0"></td>
+    <td>
+      <a href="Our_Logo.shtml">Our Logo</a> photo
+      <br>Rich Shin
+    </td>
+  </tr>
+  <tr>
+    <td><img src="images/eric_tali.jpg
+" height="75" border="1"></td>
+    <td>
+      <a href="Our_Logo.shtml">Our Logo</a> photo
+      <br>Dennis Kwon
+    </td>
+  </tr>
+  <tr>
+    <td><img src="images/fun_150.jpg
+" height="75" border="1"></td>
+    <td>
+      <a href="The_Troupe.shtml">The Troupe</a> photo
+      <br>Helena Chang
+    </td>
+  </tr>
+  <tr>
+    <td><img src="images/creative_150.jpg
+" height="75" border="1"></td>
+    <td>
+      <a href="The_Troupe.shtml">The Troupe</a> photo
+      <br>Helena Chang
+    </td>
+  </tr>
+  <tr>
+    <td><img src="../images/derrick_flip.jpg" height="75" border="1"></td>
+    <td>
+      <a href="Choreographers.shtml">Choreographers</a> photo
+      <br>Dennis Kwon
+
+    </td>
+  </tr>
+  <tr>
+    <td><img src="../images/misc.jpg
+" height="75" border="0"></td>
+    <td>
+      <a href="Gallery.shtml">Gallery</a> photo
+      <br>Dennis Kwon and Helena Chang
+    </td>
+  </tr>
+  <tr>
+    <td><img src="../images/50s.jpg
+" height="75" border="1"></td>
+    <td>
+      <a href="Contact_Us.shtml">Contact Us</a> photo
+      <br>Helena Chang
+    </td>
+  </tr>
+</table>
+</p>
+	  </td>
+	</tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+</body>
+
+</html>

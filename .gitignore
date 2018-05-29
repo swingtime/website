@@ -2,18 +2,3 @@
 .DS_Store
 *.swp
 *.swo
-
-# All of these symlink to a non-existent directory...
-reviews/
-
-# None of these should be here anyway...
-sun_aud_photos_rotated/
-
-# What even is this?
-qq
-
-# Was this the previous form of version control?
-rachelsite/
-oldsite/
-oldcss/
-oldimages/

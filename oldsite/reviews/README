@@ -1,0 +1,77 @@
+##### HOW TO SET UP THE INITIAL AUDITIONS SITE ######
+
+# CREATE A NEW DIRECTORY FOR THIS YEAR'S AUDITIONS
+	% cp -r SAMPLE YYYY
+
+# PREPARE THE IMAGE DIRECTORY
+	% cd YYYY/images
+	% rm -rf *
+	% mkdir follows leads
+	% [copy pictures into the respective directories]
+	% [create a names_auditions.txt file listing follows and
+	   leads, one per line with "-----" separating the list of
+	   follows and leads]
+	% [edit external.txt to include all external reviewers' names]
+
+# CREATE THE AUDITIONS REVIEW SITE
+	% cd ..
+	% ./createpage.pl auditions init
+
+# TEST THE SITE
+	Fill out a review at:
+	http://www.stanford.edu/group/swingtime/reviews/YYYY/
+
+	Check the results at:
+	http://www.stanford.edu/group/swingtime/reviews/2004/auditions/feedback_html/
+
+	Make sure the above URL asks for a password:
+	user/password: streviews/flyfly
+
+# ONCE THE SITE HAS BEEN TESTED, MAKE THE REVIEW SITE LIVE
+	% ./createpage.pl auditions
+
+	Visit:
+	http://www.stanford.edu/group/swingtime/reviews/
+
+# WARNING, ONCE THE SITE HAS GONE LIVE, DO NOT CHANGE *ANYTHING*.  
+# IT COULD BREAK THINGS UNEXPECTEDLY.
+
+##### HOW TO SET UP THE CALLBACKS SITE ######
+
+# PREPARE THE CALLBACKS FILES
+	% cd YYYY/images
+	% [create a names_callbacks.txt file listing follows and
+	   leads, one per line with "-----" separating the list of
+	   follows and leads]
+	% cd ..
+	% [edit DUE_DATE to match the due date]
+
+# CREATE THE CALLBACKS REVIEW SITE
+	% cd ..
+	% ./createpage.pl callbacks test
+
+	# TEST THE SITE
+	Fill out a review at:
+	http://www.stanford.edu/group/swingtime/reviews/YYYY/
+
+	Check the results at:
+	http://www.stanford.edu/group/swingtime/reviews/2004/callbacks/feedback_html/
+
+	Make sure the above URL asks for a password:
+	user/password: streviews/flyfly
+
+# ONCE THE SITE HAS BEEN TESTED, MAKE THE REVIEW SITE LIVE
+	% ./createpage.pl callbacks
+
+	Visit:
+	http://www.stanford.edu/group/swingtime/reviews/
+
+######
+
+# IMPORTING RAW FILES TO EXCEL:
+1. Open Excel
+2. File->Open: Open the raw text file
+3. Text Import Wizard: Select "Delimited"
+		       Press "Next"
+		       Select "Comma" and "Other" and specify ":"
+		       Press "Finish"

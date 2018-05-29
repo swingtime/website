@@ -1,0 +1,120 @@
+<html>
+
+<head>
+<title>:: Swingtime - Auditions ::</title>
+<link rel="stylesheet" type="text/css" href="global.css">
+<script type="text/javascript" src="media/screen.js"></script>
+
+<meta name="description" content="Swingtime is a performance-based
+swing dance troupe at Stanford that works with professional
+choreographers, dance historians, and dance legends to recreate
+swing-era dances and integrate current trends.">
+
+</head>
+
+<body>
+
+<table border="0" width="700" cellspacing="0" cellpadding="0">
+  <!--#include virtual="Menu.html" -->
+  <tr>
+    <td width="160" valign=top>
+      <!--#include virtual="Auditions.html" -->
+    </td>
+    <td valign=top width="540">
+      <table border="0" width="100%" cellspacing="0" cellpadding="5">
+	<tr>
+	  <td valign="top">
+	    <p class="heading">Swingtime 2005 Auditions: Callbacks</p>
+	    <p class="body">Swingtime is pleased to announce the Callbacks round of its 2005 auditions!
+Callbacks is the second round of our auditions process, in which a subset of our initial auditionees group is
+called back for a closer look. See our <a href="http://swingtime.stanford.edu/FAQ.shtml">FAQ</a> for
+more information about the group, auditions, etc.</p>
+
+<table cellspacing=5 cellpadding=0 border=0>
+  <tr>
+    <td><b>When:</b></td><td>Monday, October 10, 8:30-11pm</td>
+  </tr>
+  <tr>
+    <td><b>Where:</b></td><td>Roble Dance Main Studio</td>
+  </tr>
+  <tr>
+    <td><b>What:</b></td><td>Further work on partnering and lindy technique, review of last week's choreography, learning more choreography, and performances with peer reviews. The mp3 of the performance song, <i>Non-Stop Flight</i>, is available <a href="http://www.stanford.edu/group/swingtime/media/mp3/nonstopflight.mp3">here</a>.</td>
+  </tr>
+</table>
+
+<p>The following dancers are invited to join us for callbacks:</p>
+
+<table cellpadding=0 cellpadding=0 border=0>
+  <tr>
+    <td><b>Leads</b></td><td></td><td><b>Follows</b></td>
+  </tr>
+  <tr>
+    <td>Aubrey Gress</td><td></td><td>Adrienne Nguyen</td>
+  </tr>
+  <tr>
+    <td>Ben D'Angelo</td><td></td><td>Allison Gaw</td>
+  </tr>
+  <tr>
+    <td>Brian Eggleston</td><td></td><td>Christine Velez</td>
+  </tr>
+  <tr>
+    <td>Chris Wen</td><td></td><td>Desiree Fabunan</td>
+  </tr>
+  <tr>
+    <td>Curt Hoyt</td><td></td><td>Gem Chien</td>
+  </tr>
+  <tr>
+    <td>Doug Morrison</td><td></td><td>Jessica Bledin</td>
+  </tr>
+  <tr>
+    <td>Eric Chen</td><td></td><td>Jessica Kao</td>
+  </tr>
+  <tr>
+    <td>Gabriel Takacs</td><td></td><td>Katy McCown</td>
+  </tr>
+  <tr>
+    <td>Jason Sinocruz</td><td></td><td>Lillia Cherkasskiy</td>
+  </tr>
+  <tr>
+    <td>Weijie Zhang</td><td></td><td>Lisa Cho</td>
+  </tr>
+  <tr>
+    <td>Yang Woon</td><td></td><td>Megan Kane</td>
+  </tr>
+  <tr>
+    <td></td><td></td><td>Melissa Kunz</td>
+  </tr>
+  <tr>
+    <td></td><td></td><td>Paige Cameron</td>
+  </tr>
+</table>
+
+<p>For questions, see our <a href="http://swingtime.stanford.edu/FAQ.shtml">FAQ</a> or email <a
+href="mailto:swingtime-info@lists.stanford.edu">swingtime-info@lists.stanford.edu</a></p>
+
+<p><b>Evaluation:</b> Auditionees are evaluated based on a variety of factors including technique (both swing
+<i>and</i> more general dance techniques), style, lead/follow ability, and performance potential
+(ability to bring energy, fun, and poise to their dancing).  Most of important of all factors are
+expressive dancing and personality, energetic performing, and ability to learn dance quickly. We
+observe auditionees (both live and on film) and consider feedback they receive from our members
+and from each other in our unique <i>Peer Review</i> process.
+
+<p><b>Callbacks Timeline:</b>
+<ul>
+   <li> <b>Callbacks (Mon, Oct 10, 8:30-11pm):</b> Callbacks are similar to auditions. However, with a smaller group,
+   we are able to provide more individual attention, teaching, and feedback and perform more comprehensive evaluations.
+   <li> <b>Callbacks peer reviews (due Tues, Oct 11, 5pm):</b> Same as auditions.
+   <li> <b>New members confirm joining group (by Thur, Oct 13, 5pm):</b> New members are invited via email (sent on a
+   rolling basis) to join and asked to confirm their membership within 24 hours. Once all slots are filled, the new
+   group is annouced on our website and remaining auditionees are informed of our decision.
+   <li> <b> Retreat for all members (Sat, Oct 15, through Sun, Oct 16):</b> Group retreat, mandatory for all
+   new members.
+</u>
+	  </td>
+	</tr>
+      </table>
+    </td>
+  </tr>
+</table>
+</body>
+</html>

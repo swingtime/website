@@ -1,0 +1,26 @@
+%LOGFILE% = /afs/ir/group/swingtime/WWW/members/GIGS/ATTEND_@gig@.log
+%LOGFILE_WRITE% = 0
+
+<ACTION>
+OUTPUT=reply
+FORMAT=ShowAttendance
+LOGFILE_ORDER = reverse by @attend@
+</ACTION>
+
+<FORMAT NAME=ShowAttendance>
+<link rel="stylesheet" type="text/css" href="global.css">
+<p class="heading">@gig@ Attendance</p>
+<table cellpadding="0" cellspacing="5" border="0">
+&OUTPUT_LOGFILE: ShowOne&
+</table>
+<p class="note"><i>*Click on your name to change your status</i></p>
+</FORMAT>
+
+<FORMAT NAME=ShowOne>
+<tr>
+   <td><b>@attend@</b></td>
+   <td>-</td>
+   <td><a href="RSVP.fft?gig=@gig@&new_name=@name@">@name@</a></td>
+   <td><i>@reason@</i></td>
+</tr>
+</FORMAT>

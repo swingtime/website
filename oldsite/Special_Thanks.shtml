@@ -1,0 +1,71 @@
+<html>
+
+<head>
+<title>:: Swingtime - Special Thanks ::</title>
+<link rel="stylesheet" type="text/css" href="global.css">
+<script type="text/javascript" src="media/screen.js"></script>
+
+<meta name="description" content="Swingtime is a performance-based
+swing dance troupe at Stanford that works with professional
+choreographers, dance historians, and dance legends to recreate
+swing-era dances and integrate current trends.">
+
+</head>
+
+<body>
+
+<table border="0" width="800" cellspacing="0" cellpadding="0">
+  <!--#include virtual="Menu.html" -->
+  <tr>
+    <td width="160" valign=top>
+      <!--#include virtual="About.html" -->
+    </td>
+    <td valign=top width="540">
+      <table border="0" width="100%" cellspacing="0" cellpadding="5">
+	<tr><td valign="top"><p class="heading">Special Thanks</p></td></tr>
+	<tr>
+	  <td valign="top">
+	    <p class="body">
+	    <p><b>Richard Powers</b>, <i>Stanford Dance Division</i><br>for his
+help in starting Swingtime and his continued support of the artistic
+direction and day-to-day operations.
+
+<p><b>Ryan and Monica Shen Knotts</b>, <i>Knotts Dance
+Company</i><br>for their help in fine tuning our members' Lindy
+technique and our group's choreographies.
+
+<p><b>The Associated Students of Stanford University (ASSU)</b><br>for
+its financial support of Swingtime.
+
+<p><b>Victoria Ridenour</b> (<a
+href="mailto:OPMETR@aol.com">email</a>)<br>for her hard work in
+outfitting the Swingtime girls with fun, original, custom print
+dresses.
+
+<p><b>Rich Shin</b>, <a href="http://www.citylinedesign.com"
+target="_blank"><i>Cityline Design</i></a><br>for his work on the
+concept and design of the Swingtime logo.
+
+<p><b>Custom Ink</b><br>for supplying us with our Swingtime logo
+T-shirts.  Order online at <a
+href="http://www.customink.com">customink.com</a>.
+
+<p><b>Tony Kramer, Susan Cashion, and Kathleen Murphy</b>, <i>Stanford
+Dance Division</i><br>for their support and generosity in granting
+Swingtime studio space for rehearsals and performances.
+
+<p><b>Our families, friends, and fans</b><br>who support us during
+rough times and cheer for us during our performances.
+
+
+	    </p>
+	  </td>
+	</tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+</body>
+
+</html>

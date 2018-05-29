@@ -1,0 +1,208 @@
+/* Begin Defaults: defines default styles for typical html tags */
+body{
+	font-family: 'Glegoo', serif;
+	color: #444444;
+	margin: 0px 0px 0px 0px;
+}
+
+h1 {
+	margin: 0px 0px 12px 0px;
+	padding: 0px 0px 0px 0px;
+	font-family: 'Bitter', serif;
+}
+
+h2 {
+	margin: 22px 0px 12px 0px;
+	padding: 0px 0px 0px 0px;
+	font-family: 'Bitter', serif;
+	font-size: 24px;
+}
+
+p {
+	margin: 12px 0px 12px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 100%;
+}
+
+p.announcement {
+	color: #BB0000;
+}
+
+a {
+	color: #922;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+li {
+	list-style-type: none;
+}
+
+li.pic {
+	height: 96px;
+    line-height: 96px;
+    margin: 10px 10px 10px 10px;
+}
+
+img {
+	vertical-align: middle;
+	margin-right: 10px;
+}
+
+ul.no_indent {
+	padding-left: 0px;
+	margin-left: 0px;
+}
+
+table {
+	margin: 0px 0px 0px 40px;
+	padding: 0px 0px 0px 0px;
+}
+
+td {
+	width: 375px;
+	vertical-align: top;
+}
+
+h3 {
+	margin: 0px 0px 0px 0px;
+	font-weight: bold;
+}
+
+/* end defaults */
+
+/* begin layout related styles */
+
+#main_header {
+	z-index: 1;
+	width: 1024px;
+	/*height: 390px;*/
+	/*height:490px;*/
+	height: 100px;
+	margin: 0px 0px 0px 0px;
+	/*padding: 20px 0px 0px 0px;*/
+	padding: 310px 0px 0px 0px;
+	/*padding: 0px 0px 0px 0px;*/
+	/*background: url('../images/swingtime_redesign_test_banner.jpg') #ffffff no-repeat;*/
+	background: url('../images/header.jpg') #ffffff no-repeat;
+	/*background: url('../images/beimir_header.jpg') #ffffff no-repeat;*/
+}
+
+#main_header h1 {
+	color: rgb(155, 15, 4 );
+	color: rgba(155, 15, 4, .65);
+	/*-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=15)";*/
+	/*filter: alpha(opacity=15);*/
+	font-size: 45pt;
+	text-align: center;
+	width: 570px;
+	height: 80px;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 25px;
+	background-color: #ffffff;
+	opacity:.50;
+	overflow: hidden;
+	font-family: 'Mate', serif;
+}
+
+/*#main_header h1.main_header_text {
+	color: #9B0F04;
+}*/
+
+div#center {
+	width: 1024px;
+	margin: 20px auto 20px auto;
+	padding: 0px 20px 0px 20px;
+}
+
+div#wrapper {
+	position: relative;
+	width: 100%;
+	border: 2px solid #990000;
+	background: #eeeeee;
+}
+
+
+#main_nav {
+	width: 100%;
+	height: 56px;
+	font-family: 'Mate', serif;
+}
+
+#main_nav ul {
+	/*font-size: 9pt;*/
+	font-size: 14px;
+	font-weight: bold;
+	z-index: 2;
+	float: right;
+	position: relative;
+	top: 20px;
+	display: block;
+	list-style: none;
+	background-color: rgb(60, 60, 60);
+	background-color: rgba(200, 200, 200, 0.2);
+	padding: 0 10px 0 10px;
+	margin: 0 0 0 0;
+	width: 514px;
+	/*width: 480px;*/
+	height: 2em;
+}
+
+#main_nav ul li {
+	display: block;
+	float: left;
+	position: relative;
+}
+
+#main_nav ul li a {
+	display: block;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #999;
+	position: relative;
+	height: 1em;
+	padding: .4em 5px .6em 5px;
+	margin: 0 0 0 0;
+	background-color: rgba(200, 200, 200, 0);
+}
+
+#main_nav ul li a:hover {
+	background-color: rgb(85, 10, 10);
+	background-color: rgba(255, 100, 100, 0.1);
+}
+
+#body {
+	background-color: #eeeeee;
+	background-color: rgba(255, 255, 255, 0.0);
+	padding: 0px 56px 56px 56px;
+	margin: 0 0 0 0;
+}
+
+#footer {
+	width: 1024px;
+	height: 10px;
+	/*background-color: #222222;*/
+}
+
+div.pusher { /* used to make sure bottom of body clears all floated things in body */
+	color: rgba(0, 0, 0, 0);
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	height: 1px;
+	width: 1px;
+	clear: both;
+}
+
+div.auditions {
+	margin: 0px auto;
+	padding: 10px 60px 10px 80px;
+	width: 720px;
+	border: solid 1px #990000;
+	border-radius: 15px;
+	background-color: rgb(60, 60, 60);
+	background-color: rgba(200, 200, 200, 0.2);
+}
