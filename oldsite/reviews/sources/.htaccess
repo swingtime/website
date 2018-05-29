@@ -1,8 +1,0 @@
-AuthUserFile /afs/ir.stanford.edu/group/swingtime/WWW/reviews/.htpasswd
-AuthName ByPassword
-AuthType Basic
-
-order deny,allow
-allow from all
-require user streviews
-
