@@ -102,7 +102,7 @@ body {
   overflow: hidden;
   width: 100%;
   color: white;
-  background: url('/images/banner4.jpg');
+  background: url('/images/banner.jpg');
   background-position: center;
   background-size: cover;
   transition: background .3s linear;
