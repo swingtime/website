@@ -274,45 +274,38 @@ $("#links a").click(function() {
 
 /* Scrolls to the appropriate section when a navbar link is clicked and highlights as the user scrolls */
 function addScrollingBehavior() {
-  var about = $("h1[name='about']").offset().top - 200;
-  var auditions = $("h1[name='auditions']").offset().top - 200;
-  var booking = $("h1[name='booking']").offset().top - 200;
-  var members = $("h1[name='members']").offset().top - 200;
-  var contact = $("h1[name='contact']").offset().top - 500;  // Extra high offset of 500 since contact is at the bottom of the page
+  // Get an array of jQuery elements. Note that jQuery returns elements
+  // in the order they appear in the DOM
+  var sections = $("h1").toArray().map(function (section) {
+    return $(section);
+  });
 
   $("#mini-logo").click(function() {
     $("html, body").animate({scrollTop: 0}, "slow", "easeInCirc");
   });
 
   $(window).scroll(function() {
-    /* Activates the navbar withdrawal when scrolling down */
-    var top = $(this).scrollTop();
-    if (top > 1) {
-      $("#mini-logo").css("opacity", 1);
-      $("#logo").css("opacity", 0);
-      $("#header-container").addClass("sticky");
-      $("#links").addClass("sticky");
-      $("#banner").addClass("sticky");
+    /* Activates the navbar transition when scrolling down */
+    var currentScrollPosition = $(window).scrollTop();
+    if (currentScrollPosition > 1) {
+      $("#header").addClass("sticky");
     } else {
-      $("#mini-logo").css("opacity", 0);
-      $("#logo").css("opacity", 1);
-      $("#header-container").removeClass("sticky");
-      $("#links").removeClass("sticky"); 
-      $("#banner").removeClass("sticky");
-    } 
+      $("#header").removeClass("sticky");
+    }
 
     /* Highlights the appropriate top-nav link */
+    for (var i = 0; i < sections.length; i += 1) {
+      // break if user has not scrolled to this section yet
+      if (currentScrollPosition + $(window).height() < sections[i].offset().top) {
+        break;
+      }
+    }
+
     $("#links a").removeClass("selected");
-    if (top >= about && top < booking) {
-      $("#about").addClass("selected");
-    } else if (top >= booking && top < members) {
-      $("#booking").addClass("selected");
-    } else if (top >= members && top < auditions) {
-      $("#members").addClass("selected");
-    } else if (top >= auditions && top < contact) {
-      $("#auditions").addClass("selected");
-    } else if (top >= contact) {
-      $("#contact").addClass("selected");
+    if (i > 0) {
+      var sectionToHighlight = $(sections[i - 1]);
+      var sectionName = sectionToHighlight.attr('name');
+      $("#" + sectionName).addClass("selected");
     }
   }); 
 }
