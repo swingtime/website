@@ -23,27 +23,29 @@ body {
   overflow-x: hidden;
 }
 
+a {
+  color: #08c;
+}
+
 #header {
   position: fixed;
   left: 0;
   top: 0;
   right: 0;
-  height: 40px;
   background: rgba(0, 0, 0, 0.6);
   z-index: 500;
+  padding: 0.2rem 1rem;
 }
 
 #header.sticky {
-  height: 50px;
   background: white;
   box-shadow: 2px 2px 2px #777;
   border-bottom: 1px solid #222;
+  padding: 0.5rem 1rem;
 }
 
 #mini-logo {
-  position: fixed;
-  left: 20px;
-  top: 7px;
+  margin-left: 5px;
   background-image: url('/images/mini-logo.png');
   background-size: cover;
   width: 35px;
@@ -66,16 +68,22 @@ body {
   -webkit-transition: all 0.5s;
 }
 
+.navbar-toggler {
+  border: none;
+  color: white;
+}
+
+#header.sticky .navbar-toggler {
+  color: black;
+}
+
 #links {
-  position: fixed;
-  right: 30px;
+  margin-right: 10px;
   z-index: 1000;
-  margin-top: 10px;
   color: white;
 }
 
 #header.sticky #links {
-  margin-top: 15px;
   color: black;
 }
 
@@ -85,14 +93,6 @@ body {
   font-weight: 200;
   margin: 0 0 0 20px;
   font-size: 16px;
-}
-
-#banner-container {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  overflow: hidden;
-  background-color: #eee;
 }
 
 #banner {
@@ -110,32 +110,35 @@ body {
   -moz-transition: background .3s linear;
 }
 
-#banner-img {
-  overflow: hidden;
+#banner-contents {
+  position: absolute;
+  bottom: 40px;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  font-family: 'Myanmar', Verdana;
 }
 
 #st {
-  display: block;
-  position: absolute;
-  z-index: 100;
-  left: 100px;
-  bottom: 90px;
-  font-size: 70px;
-  font-family: 'Myanmar', Verdana;
+  display: inline-block;
+  margin-left: 12%;
+  margin-bottom: 20px;
+  font-size: 4.4em;
   background-color: rgba(0,0,0,0.8);
-  padding: 30px 15px 20px 15px;
+  padding: 10px 15px 0 15px;
+  line-height: 0.95;
+}
+
+.clear-inline {
+  display: block;
 }
 
 #desc {
-  display: block;
-  position: absolute;
-  z-index: 100;
-  left: 160px;
-  bottom: 40px;
-  font-size: 18px;
-  font-family: 'Myanmar', Verdana;
+  display: inline-block;
+  margin-left: 22%;
+  font-size: 1.2em;
   background-color: rgba(0,0,0,0.8);
-  padding: 7px 11px 4px;
+  padding: 4px 8px 0;
   white-space: nowrap;
 }
 
@@ -152,11 +155,17 @@ body {
   background-color: rgb(249, 249, 249);
 }
 
+#star-img {
+  width: 440px;
+  margin-bottom: 50px;
+}
+
 .info {
   position: relative;
   text-align: center;
-  margin: 50px auto 200px auto;
-  max-width: 1000px;
+  margin-top: 50px;
+  margin-bottom: 200px;
+  width: 100%;
 }
 
 .info h1 {
@@ -169,7 +178,7 @@ body {
   font-weight: normal;
   font-family: 'Myanmar';
   text-align: left;
-  margin: 0 auto 15px 25px;
+  margin: 0 20px 15px 20px;
   color: #5b0505;
 }
 
@@ -182,22 +191,6 @@ body {
   line-height: 30px;
   margin: 0px 20px 0 30px;
   text-align: left;
-}
-
-.span4 h3 {
-  margin: 0 10px 5px 0;
-}
-
-.info h3.center {
-  text-align: center;
-}
-
-p.center {
-  text-align: center;
-}
-
-.span4 p {
-  margin: 0 8px 0 12px;
 }
 
 .info img {
@@ -219,20 +212,16 @@ p.center {
   margin: 50px 0;
 }
 
-iframe {
-  border: 8px solid #ddd;
-  border-radius: 8px;
+#members-list .member {
+  width: 180px;
+  margin: 20px;
 }
 
-.span3 .member {
-  border-radius: 150px;
-  width: 230px;
+#members-list .member img {
+  border-radius: 50%;
+  width: 100%;
   height: auto;
   -webkit-background-clip: padding-box;
-}
-
-.span3 {
-  margin-left: 30px !important;
 }
 
 .info h5 {
@@ -343,21 +332,97 @@ h5.year:hover {
   padding: 5px 10px;
 }
 
-.gallery-embed {
-  width: 600px;
-  height: 350px;
+#photo-carousel {
+  width: 100%;
+  height: 450px;
   border-radius: 8px;
   border: 8px solid #ddd;
   overflow: hidden;
-  display: inline-block;
 }
 
-#star-img {
-  margin-top: 25px;
+#photo-carousel .carousel-item {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
-/*#facebook {
-    background-color:#6d84b4;
-    border-radius: 5px;
-    font-color: #ffffff;
-} might try to finish this later. trying to make it look like a facebook button */
+#photo-carousel .carousel-inner {
+  height: 100%;
+}
+
+.slide1 {
+  background-image: url('../images/slideshow/slide1.jpg');
+}
+.slide2 {
+  background-image: url('../images/slideshow/slide2.jpg');
+}
+.slide3 {
+  background-image: url('../images/slideshow/slide3.jpg');
+}
+.slide4 {
+  background-image: url('../images/slideshow/slide4.jpg');
+}
+.slide5 {
+  background-image: url('../images/slideshow/slide5.jpg');
+}
+.slide6 {
+  background-image: url('../images/slideshow/slide6.jpg');
+}
+
+/* Taken from https://www.ostraining.com/blog/coding/responsive-videos/ */
+
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+  border: 8px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 50px;
+}
+
+.video-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+@media only screen and (max-width: 740px) {
+  /* Reposition banner title and subtitle on small screens */
+  #banner-contents {
+    text-align: center;
+    font-size: 0.85em;
+  }
+
+  #st, #desc {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  /* Hide lines to left/right of section headings on very small screens */
+  .line {
+    display: none;
+  }
+
+  /* Reposition banner title and subtitle */
+  #banner-contents {
+    bottom: 25px;
+  }
+
+  #st {
+    font-size: 3em;
+    padding-top: 5px;
+  }
+
+  #desc {
+    white-space: normal;
+    width: 230px;
+  }
+}

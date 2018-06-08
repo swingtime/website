@@ -262,50 +262,84 @@ function resizeWindow() {
   $("#content").css("top", height);
 }
 
-/* Handles the navbar scrolling animation */
-function scrollToAnchor(anchorId) {
-  var h1Tag = $("h1[name='" + anchorId + "']");
-  $("html, body").stop(true, true).animate({scrollTop: h1Tag.offset().top - 100}, "slow");
+/* Update the navbar when scrolling */
+function onScroll(sections) {
+  var currentScrollPosition = $(window).scrollTop();
+  if (currentScrollPosition > 1) {
+    $("#header").addClass("sticky");
+  } else {
+    $("#header").removeClass("sticky");
+  }
+
+  /* Highlights the appropriate top-nav link */
+  var furthestPositionReached = currentScrollPosition + $(window).height() - 200
+  for (var i = 0; i < sections.length; i += 1) {
+    // break if user has not scrolled to this section yet
+    if (furthestPositionReached < sections[i].offset().top) {
+      break;
+    }
+  }
+
+  $("#links a").removeClass("selected");
+  if (i > 0) {
+    var sectionToHighlight = $(sections[i - 1]);
+    var sectionName = sectionToHighlight.attr('name');
+    $("#" + sectionName).addClass("selected");
+  }
 }
 
-$("#links a").click(function() {
-  scrollToAnchor($(this).text());
-});
-
-/* Scrolls to the appropriate section when a navbar link is clicked and highlights as the user scrolls */
 function addScrollingBehavior() {
+  /*
+   * When user scrolls, update the navbar to highlight the section they are currently viewing
+   */
+
   // Get an array of jQuery elements. Note that jQuery returns elements
-  // in the order they appear in the DOM
+  // in the order they appear in the DOM.
   var sections = $("h1").toArray().map(function (section) {
     return $(section);
   });
 
-  $("#mini-logo").click(function() {
+  onScroll(sections);
+
+  $(window).scroll(function() {
+    onScroll(sections);
+  });
+
+  /*
+   * Smooth scroll when anchor tags are clicked to move to a different part of the page
+   */
+
+  $("a").click(function() {
+    const href = $(this).attr('href');
+    if (href[0] !== '#') {
+      console.log('clicked');
+      return;
+    }
+
+    var destTag = $("[name='" + href.slice(1) + "']");
+    if (destTag.length > 0) {
+      $("html, body").stop(true, true).animate({
+        scrollTop: destTag.offset().top - 100,
+      }, "slow");
+    }
+  });
+
+  /*
+   * When the mini logo is clicked, scroll to the top of the page
+   */
+
+   $("#mini-logo").click(function() {
     $("html, body").animate({scrollTop: 0}, "slow", "easeInCirc");
   });
 
-  $(window).scroll(function() {
-    /* Activates the navbar transition when scrolling down */
-    var currentScrollPosition = $(window).scrollTop();
-    if (currentScrollPosition > 1) {
-      $("#header").addClass("sticky");
-    } else {
-      $("#header").removeClass("sticky");
-    }
-
-    /* Highlights the appropriate top-nav link */
-    for (var i = 0; i < sections.length; i += 1) {
-      // break if user has not scrolled to this section yet
-      if (currentScrollPosition + $(window).height() < sections[i].offset().top) {
-        break;
-      }
-    }
-
-    $("#links a").removeClass("selected");
-    if (i > 0) {
-      var sectionToHighlight = $(sections[i - 1]);
-      var sectionName = sectionToHighlight.attr('name');
-      $("#" + sectionName).addClass("selected");
-    }
-  }); 
+  /*
+   * Add data-toggle and data-target attributes to navbar links so that when a link is clicked,
+   * the navbar collapses (on small screens).
+   */
+  $("#links a:not(#facebook)")
+    .attr("data-toggle", "collapse")
+    .attr("data-target", "#links.show");
+  $("#mini-logo")
+    .attr("data-toggle", "collapse")
+    .attr("data-target", "#links.show");
 }
