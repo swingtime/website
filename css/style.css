@@ -353,6 +353,9 @@ h5.year:hover {
   height: 100%;
 }
 
+.slide0 {
+  background-image: url('../images/slideshow/slide0.jpg');
+}
 .slide1 {
   background-image: url('../images/slideshow/slide1.jpg');
 }
@@ -370,6 +373,27 @@ h5.year:hover {
 }
 .slide6 {
   background-image: url('../images/slideshow/slide6.jpg');
+}
+.slide7 {
+  background-image: url('../images/slideshow/slide7.jpg');
+}
+.slide8 {
+  background-image: url('../images/slideshow/slide8.jpg');
+}
+.slide9 {
+  background-image: url('../images/slideshow/slide9.jpg');
+}
+.slide10 {
+  background-image: url('../images/slideshow/slide10.jpg');
+}
+.slide11 {
+  background-image: url('../images/slideshow/slide11.jpg');
+}
+.slide12 {
+  background-image: url('../images/slideshow/slide12.jpg');
+}
+.slide13 {
+  background-image: url('../images/slideshow/slide13.jpg');
 }
 
 /* Taken from https://www.ostraining.com/blog/coding/responsive-videos/ */
