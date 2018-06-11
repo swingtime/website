@@ -161,3 +161,14 @@ person's username:
 
 You will also need to add new webmasters to the Swingtime organization on
 GitHub, so that they can push to the repository.
+
+## The `members` directory
+
+It appears that there used to be an old, members-only area of the website. It
+has lots of old files, including descriptions of our choreos, Swingtime
+documents, quotes, and other stuff from 2002-2006. I've kept it here for now
+because it's fun to look through, and someone should go through it and see if
+we want to put any of it elsewhere. I already transferred the choreo
+descriptions to the Google Drive. Future webmasters are welcome to delete this
+directory (of course, it will always be stored in the Git history in case we
+want to go back and look at it).
