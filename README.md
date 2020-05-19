@@ -162,6 +162,13 @@ person's username:
 You will also need to add new webmasters to the Swingtime organization on
 GitHub, so that they can push to the repository.
 
+## AFS Space Automatically Archived / Website Down
+
+Every 365 days, the Swingtime AFS space might expire. If this happens, the website will be automatically archived and the website will be down.
+If this happens, you need to visit https://tools.stanford.edu/cgi-bin/view-afsrenew, sign in, and see the "AFS Renewal" section so you can renew the AFS space (AFS volume name: group.swingtime, Volume Path: /afs/ir/group/swingtime). After you renew the space, the website should be back up again.
+However, if you don't see the Swingtime AFS space listed, there might be some admin / permissions issues. If that's the case, you can create a Help Ticket (https://stanford.service-now.com/services?id=get_help) and explain the situation. They can reactivate the AFS space for you, which will bring the website back up again.
+
+
 ## The `members` directory
 
 It appears that there used to be an old, members-only area of the website. It
