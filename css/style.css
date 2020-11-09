@@ -352,49 +352,48 @@ h5.year:hover {
 #photo-carousel .carousel-inner {
   height: 100%;
 }
-
 .slide0 {
-  background-image: url('../images/slideshow/slide0.jpg');
+  background-image: url('../images/slideshow/2019 Fall Ball (2).jpg');
 }
 .slide1 {
-  background-image: url('../images/slideshow/slide1.jpg');
+  background-image: url('../images/slideshow/old_images/slide1.jpg');
 }
 .slide2 {
-  background-image: url('../images/slideshow/slide2.jpg');
+  background-image: url('../images/slideshow/2020 Vball (4).jpg');
 }
 .slide3 {
-  background-image: url('../images/slideshow/slide3.jpg');
+  background-image: url('../images/slideshow/2019 Fall Ball.jpg');
 }
 .slide4 {
-  background-image: url('../images/slideshow/slide4.jpg');
+  background-image: url('../images/slideshow/old_images/slide7.jpg');
 }
 .slide5 {
-  background-image: url('../images/slideshow/slide5.jpg');
+  background-image: url('../images/slideshow/2020 Vball (2).jpg');
 }
 .slide6 {
-  background-image: url('../images/slideshow/slide6.jpg');
+  background-image: url('../images/slideshow/2020 Vball (3).jpg');
 }
 .slide7 {
-  background-image: url('../images/slideshow/slide7.jpg');
+  background-image: url('../images/slideshow/2019 Fall Ball (3).jpg');
 }
 .slide8 {
-  background-image: url('../images/slideshow/slide8.jpg');
+  background-image: url('../images/slideshow/old_images/slide8.jpg');
 }
 .slide9 {
-  background-image: url('../images/slideshow/slide9.jpg');
+  background-image: url('../images/slideshow/old_images/slide13.jpg');
 }
 .slide10 {
-  background-image: url('../images/slideshow/slide10.jpg');
+  background-image: url('../images/slideshow/2020 Vball.jpg');
 }
-.slide11 {
-  background-image: url('../images/slideshow/slide11.jpg');
+/* .slide11 {
+  background-image: url('');
 }
 .slide12 {
-  background-image: url('../images/slideshow/slide12.jpg');
+  background-image: url('');
 }
 .slide13 {
-  background-image: url('../images/slideshow/slide13.jpg');
-}
+  background-image: url('');
+} */
 
 /* Taken from https://www.ostraining.com/blog/coding/responsive-videos/ */
 
