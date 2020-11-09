@@ -359,7 +359,7 @@ h5.year:hover {
   background-image: url('../images/slideshow/old_images/slide1.jpg');
 }
 .slide2 {
-  background-image: url('../images/slideshow/2020 Vball (4).jpg');
+  background-image: url('../images/slideshow/slide11.jpg');
 }
 .slide3 {
   background-image: url('../images/slideshow/2019 Fall Ball.jpg');
@@ -368,32 +368,29 @@ h5.year:hover {
   background-image: url('../images/slideshow/old_images/slide7.jpg');
 }
 .slide5 {
-  background-image: url('../images/slideshow/2020 Vball (2).jpg');
+  background-image: url('../images/slideshow/2020 Vball (4).jpg');
 }
 .slide6 {
-  background-image: url('../images/slideshow/2020 Vball (3).jpg');
+  background-image: url('../images/slideshow/slide12.jpg');
 }
 .slide7 {
   background-image: url('../images/slideshow/2019 Fall Ball (3).jpg');
 }
 .slide8 {
-  background-image: url('../images/slideshow/old_images/slide8.jpg');
+  background-image: url('../images/slideshow/2020 Vball (2).jpg');
 }
 .slide9 {
-  background-image: url('../images/slideshow/old_images/slide13.jpg');
+  background-image: url('../images/slideshow/old_images/slide8.jpg');
 }
 .slide10 {
-  background-image: url('../images/slideshow/2020 Vball.jpg');
+  background-image: url('../images/slideshow/old_images/slide13.jpg');
 }
-/* .slide11 {
-  background-image: url('');
+.slide11 {
+  background-image: url('../images/slideshow/2020 Vball (3).jpg');
 }
 .slide12 {
-  background-image: url('');
+  background-image: url('../images/slideshow/2020 Vball.jpg');
 }
-.slide13 {
-  background-image: url('');
-} */
 
 /* Taken from https://www.ostraining.com/blog/coding/responsive-videos/ */
 
