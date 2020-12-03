@@ -169,13 +169,19 @@ Connect to the server cardinal.stanford.edu by SSH.
 
 Example: on a Mac, you would open a terminal window by pressing the Command + Space and typing ’Terminal’ and hitting enter.
 
-Then type:  ssh cardinal.stanford.edu
-Login with your SUNetID and password.
+Then type:  ssh cardinal.stanford.edu and login with your SUNetID and password.
 
 Then to list the members type: pts members swingtime-admins
 
-To Add a user type: pts adduser -user SUNET_ID -group swingtime-admins
-To Remove a user type: pts removeuser -user SUNET_ID -group swingtime-admins
+To Add a user type:
+```
+pts adduser -user SUNET_ID -group swingtime-admins
+```
+
+To Remove a user type:
+```
+pts removeuser -user SUNET_ID -group swingtime-admins
+```
 
 
 ## AFS Space Automatically Archived / Website Down
