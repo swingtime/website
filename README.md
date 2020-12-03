@@ -165,20 +165,19 @@ GitHub, so that they can push to the repository.
 
 If the previous steps don't work, try the following:
 
-Connect to the server cardinal.stanford.edu by SSH.
+* Connect to the server cardinal.stanford.edu by SSH: type ``ssh cardinal.stanford.edu`` and login with your SUNetID and password.
 
-Example: on a Mac, you would open a terminal window by pressing the Command + Space and typing ’Terminal’ and hitting enter.
+Then to list the members type:
+```
+pts members swingtime-admins
+```
 
-Then type:  ssh cardinal.stanford.edu and login with your SUNetID and password.
-
-Then to list the members type: pts members swingtime-admins
-
-To Add a user type:
+To add a user type:
 ```
 pts adduser -user SUNET_ID -group swingtime-admins
 ```
 
-To Remove a user type:
+To remove a user type:
 ```
 pts removeuser -user SUNET_ID -group swingtime-admins
 ```
