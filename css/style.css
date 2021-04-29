@@ -158,6 +158,7 @@ a {
 #star-img {
   width: 440px;
   margin-bottom: 50px;
+  margin-top: 50px;
 }
 
 .info {
@@ -446,3 +447,24 @@ h5.year:hover {
     width: 230px;
   }
 }
+.column {
+  float: left;
+  width: 48%;
+  padding: 10px;
+}
+
+.half {
+  width: 48%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+ a, a:hover, a:focus, a:active {
+      text-decoration: none;
+      color: inherit;
+ }
