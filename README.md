@@ -165,7 +165,7 @@ GitHub, so that they can push to the repository.
 
 If the previous steps don't work, try the following:
 
-* Connect to the server cardinal.stanford.edu by SSH: type ``ssh cardinal.stanford.edu`` and login with your SUNetID and password.
+* Connect to the server cardinal.stanford.edu by SSH: type ``ssh <SUNET_ID>@cardinal.stanford.edu`` and login with your SUNetID and password.
 
 Then to list the members type:
 ```
