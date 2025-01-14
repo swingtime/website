@@ -124,7 +124,7 @@ Stanford's servers. Here are the steps to do that.
 3. `ssh` into a Stanford server and change to Swingtime's `WWW` directory:
 
 ```
-> ssh <username>@rice.stanford.edu
+> ssh <username>@cardinal.stanford.edu
 > cd /afs/.ir/group/swingtime/WWW/
 ```
 
